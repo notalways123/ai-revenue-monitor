@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Revenue Monitor</title>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<style>
+  :root {
+    --bg: #0a0e17;
+    --surface: #131a2a;
+    --surface2: #1a2235;
+    --border: #243049;
+    --text: #e2e8f0;
+    --text2: #8892a4;
+    --anthro: #d4a44c;
+    --anthro-light: rgba(212,164,76,0.15);
+    --openai: #10a37f;
+    --openai-light: rgba(16,163,127,0.15);
+    --danger: #ef4444;
+    --warning: #f59e0b;
+    --info: #3b82f6;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; line-height:1.5; }
+  .header { padding:24px 32px; border-bottom:1px solid var(--border); display:flex; align-items:center; justify-content:space-between; }
+  .header h1 { font-size:20px; font-weight:600; letter-spacing:-0.02em; }
+  .header .subtitle { color:var(--text2); font-size:13px; margin-top:2px; }
+  .tabs { display:flex; gap:0; border-bottom:1px solid var(--border); padding:0 32px; }
+  .tab { padding:12px 20px; font-size:13px; font-weight:500; color:var(--text2); cursor:pointer; border-bottom:2px solid transparent; transition:all .15s; }
+  .tab:hover { color:var(--text); }
+  .tab.active { color:var(--text); border-bottom-color:var(--anthro); }
+  .tab-content { display:none; padding:24px 32px; }
+  .tab-content.active { display:block; }
+  .metrics { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:12px; margin-bottom:24px; }
+  .metric-card { background:var(--surface); border:1px solid var(--border); border-radius:8px; padding:16px; }
+  .metric-card .label { font-size:11px; color:var(--text2); text-transform:uppercase; letter-spacing:.05em; }
+  .metric-card .value { font-size:22px; font-weight:700; margin-top:4px; }
+  .metric-card .sub { font-size:11px; color:var(--text2); margin-top:2px; }
+  .metric-card.anthro .value { color:var(--anthro); }
+  .metric-card.openai .value { color:var(--openai); }
+  .charts { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:24px; }
+  .chart-box { background:var(--surface); border:1px solid var(--border); border-radius:8px; padding:16px; }
+  .chart-box.full { grid-column:1/-1; }
+  .chart-title { font-size:13px; font-weight:600; margin-bottom:12px; color:var(--text2); }
+  .chart-container { width:100%; height:320px; }
+  .chart-container.tall { height:400px; }
+  .basis-toggle { display:flex; gap:8px; margin-bottom:16px; }
+  .basis-btn { padding:6px 14px; font-size:12px; border-radius:6px; border:1px solid var(--border); background:transparent; color:var(--text2); cursor:pointer; }
+  .basis-btn.active { background:var(--surface2); color:var(--text); border-color:var(--anthro); }
+  .data-table { width:100%; border-collapse:collapse; font-size:12px; }
+  .data-table th { text-align:left; padding:8px 12px; color:var(--text2); font-weight:500; border-bottom:1px solid var(--border); }
+  .data-table td { padding:8px 12px; border-bottom:1px solid var(--border); }
+  .data-table tr:hover { background:var(--surface2); }
+  .conf-high { color:#22c55e; }
+  .conf-medium { color:#f59e0b; }
+  .conf-low { color:#ef4444; }
+  .tag { display:inline-block; padding:2px 8px; border-radius:4px; font-size:10px; font-weight:600; }
+  .tag-anthro { background:var(--anthro-light); color:var(--anthro); }
+  .tag-openai { background:var(--openai-light); color:var(--openai); }
+  .filter-row { display:flex; gap:12px; margin-bottom:16px; }
+  .filter-row select, .filter-row input { background:var(--surface); border:1px solid var(--border); color:var(--text); padding:6px 10px; border-radius:6px; font-size:12px; }
+  .generated { text-align:right; font-size:11px; color:var(--text2); padding:12px 32px; border-top:1px solid var(--border); }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1>AI Revenue Monitor</h1>
+    <div class="subtitle">Anthropic & OpenAI annualized revenue tracking</div>
+  </div>
+  <div id="header-metrics" style="display:flex;gap:32px;font-size:13px;"></div>
+</div>
+
+<div class="tabs">
+  <div class="tab active" data-tab="overview">Overview</div>
+  <div class="tab" data-tab="anthropic">Anthropic</div>
+  <div class="tab" data-tab="openai">OpenAI</div>
+  <div class="tab" data-tab="sources">Data Sources</div>
+</div>
+
+<!-- Overview Tab -->
+<div class="tab-content active" id="tab-overview">
+  <div class="basis-toggle">
+    <button class="basis-btn active" data-basis="as-reported">As Reported</button>
+    <button class="basis-btn" data-basis="net">Net Basis</button>
+    <button class="basis-btn" data-basis="gross">Gross Basis</button>
+  </div>
+  <div class="metrics" id="overview-metrics"></div>
+  <div class="charts">
+    <div class="chart-box full"><div class="chart-title">Revenue Trajectory</div><div class="chart-container tall" id="chart-trajectory"></div></div>
+    <div class="chart-box"><div class="chart-title">Growth Rate (QoQ annualized)</div><div class="chart-container" id="chart-growth"></div></div>
+    <div class="chart-box"><div class="chart-title">Inflection Detection (2nd Derivative)</div><div class="chart-container" id="chart-inflection"></div></div>
+    <div class="chart-box full"><div class="chart-title">Revenue Gap & Crossover</div><div class="chart-container" id="chart-crossover"></div></div>
+  </div>
+</div>
+
+<!-- Anthropic Tab -->
+<div class="tab-content" id="tab-anthropic">
+  <div class="metrics" id="anthro-metrics"></div>
+  <div class="charts">
+    <div class="chart-box full"><div class="chart-title">Anthropic Revenue Trajectory</div><div class="chart-container tall" id="chart-anthro-trajectory"></div></div>
+    <div class="chart-box"><div class="chart-title">Growth Rate</div><div class="chart-container" id="chart-anthro-growth"></div></div>
+    <div class="chart-box"><div class="chart-title">Inflection Detection</div><div class="chart-container" id="chart-anthro-inflection"></div></div>
+  </div>
+</div>
+
+<!-- OpenAI Tab -->
+<div class="tab-content" id="tab-openai">
+  <div class="metrics" id="openai-metrics"></div>
+  <div class="charts">
+    <div class="chart-box full"><div class="chart-title">OpenAI Revenue Trajectory</div><div class="chart-container tall" id="chart-openai-trajectory"></div></div>
+    <div class="chart-box"><div class="chart-title">Growth Rate</div><div class="chart-container" id="chart-openai-growth"></div></div>
+    <div class="chart-box"><div class="chart-title">Inflection Detection</div><div class="chart-container" id="chart-openai-inflection"></div></div>
+  </div>
+</div>
+
+<!-- Data Sources Tab -->
+<div class="tab-content" id="tab-sources">
+  <div class="filter-row">
+    <select id="filter-company"><option value="all">All Companies</option><option value="anthropic">Anthropic</option><option value="openai">OpenAI</option></select>
+    <select id="filter-confidence"><option value="all">All Confidence</option><option value="high">High</option><option value="medium">Medium</option><option value="low">Low</option></select>
+  </div>
+  <div style="overflow-x:auto;"><table class="data-table" id="source-table"><thead><tr><th>Date</th><th>Company</th><th>Revenue ($B)</th><th>Metric</th><th>Basis</th><th>Source</th><th>Confidence</th><th>Notes</th></tr></thead><tbody></tbody></table></div>
+</div>
+
+<div class="generated" id="generated-at"></div>
+
+<script src="js/data-loader.js"></script>
+<script src="js/charts.js"></script>
+<script src="js/comparability.js"></script>
+</body>
+</html>
