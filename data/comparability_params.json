@@ -1,0 +1,35 @@
+{
+  "description": "Parameters for adjusting revenue between gross and net reporting bases",
+  "anthropic": {
+    "reporting_basis": "gross",
+    "gross_to_net": {
+      "cloud_partner_take_rate": 0.25,
+      "cloud_channel_pct": 0.40,
+      "notes": "Estimated 25% take-rate by AWS/Google on cloud-resold revenue; ~40% of Anthropic revenue flows through cloud channels. Adjusts: net = gross - (gross * cloud_channel_pct * cloud_partner_take_rate)",
+      "sources": [
+        "Sacra: Anthropic reports cloud reseller revenue on gross basis",
+        "OpenAI CRO Dresser (Apr 2026): alleged ~$8B inflation via gross reporting",
+        "Yahoo Finance / Josipa Majic Predin (Mar 2026): confirmed gross reporting"
+      ]
+    }
+  },
+  "openai": {
+    "reporting_basis": "net",
+    "net_to_gross": {
+      "microsoft_share_rate": 0.20,
+      "azure_channel_pct": 0.30,
+      "notes": "OpenAI pays Microsoft ~20% revenue share on Azure-distributed revenue; estimated ~30% of OpenAI revenue flows through Azure. Adjusts: gross = net / (1 - azure_channel_pct * microsoft_share_rate / (1 + azure_channel_pct * microsoft_share_rate)). Simplified: gross ≈ net + (net * azure_channel_pct * microsoft_share_rate)",
+      "sources": [
+        "CNBC/Reuters (Jun 2025): OpenAI figures exclude Microsoft licensing",
+        "Khosla Ventures Ethan Choi (Mar 2026): net reporting confirmed",
+        "SEC filings: Microsoft revenue share terms"
+      ]
+    }
+  },
+  "sensitivity_ranges": {
+    "anthropic_cloud_take_rate": [0.15, 0.20, 0.25, 0.30, 0.35],
+    "anthropic_cloud_channel_pct": [0.30, 0.35, 0.40, 0.45, 0.50],
+    "openai_microsoft_share_rate": [0.15, 0.20, 0.25],
+    "openai_azure_channel_pct": [0.20, 0.25, 0.30, 0.35, 0.40]
+  }
+}

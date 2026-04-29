@@ -1,0 +1,2797 @@
+{
+  "generated_at": "2026-04-29T09:14:00.366034",
+  "anthropic": {
+    "revenue_points": [
+      {
+        "date": "2023-03-01",
+        "company": "anthropic",
+        "revenue_b": 0.022,
+        "metric_type": "arr",
+        "reporting_basis": "gross",
+        "source": "Sacra estimate",
+        "source_url": "",
+        "confidence": "low",
+        "notes": "Sacra independent ARR estimate for Mar 2023",
+        "product_breakdown": null
+      },
+      {
+        "date": "2023-09-01",
+        "company": "anthropic",
+        "revenue_b": 0.1,
+        "metric_type": "run_rate",
+        "reporting_basis": "gross",
+        "source": "The Information / Reuters",
+        "source_url": "",
+        "confidence": "medium",
+        "notes": "Reported $100M annualized rate; leaked from investor briefing",
+        "product_breakdown": null
+      },
+      {
+        "date": "2023-12-01",
+        "company": "anthropic",
+        "revenue_b": 0.2,
+        "metric_type": "arr",
+        "reporting_basis": "gross",
+        "source": "Anthropic investor deck via Sacra",
+        "source_url": "",
+        "confidence": "low",
+        "notes": "Projected $200M ARR by end of 2023",
+        "product_breakdown": null
+      },
+      {
+        "date": "2024-03-01",
+        "company": "anthropic",
+        "revenue_b": 0.316,
+        "metric_type": "arr",
+        "reporting_basis": "gross",
+        "source": "Sacra estimate",
+        "source_url": "",
+        "confidence": "low",
+        "notes": "Sacra independent ARR estimate for Mar 2024",
+        "product_breakdown": null
+      },
+      {
+        "date": "2025-01-01",
+        "company": "anthropic",
+        "revenue_b": 1.0,
+        "metric_type": "run_rate",
+        "reporting_basis": "gross",
+        "source": "Anthropic official (Series E announcement)",
+        "source_url": "",
+        "confidence": "high",
+        "notes": "Series E at $61.5B valuation; ~$1B run-rate at start of 2025",
+        "product_breakdown": null
+      },
+      {
+        "date": "2025-03-01",
+        "company": "anthropic",
+        "revenue_b": 2.0,
+        "metric_type": "run_rate",
+        "reporting_basis": "gross",
+        "source": "Reuters (exclusive, 2 sources)",
+        "source_url": "",
+        "confidence": "medium",
+        "notes": "End of March ~$2B annualized",
+        "product_breakdown": null
+      },
+      {
+        "date": "2025-05-01",
+        "company": "anthropic",
+        "revenue_b": 3.0,
+        "metric_type": "run_rate",
+        "reporting_basis": "gross",
+        "source": "Reuters (exclusive, 2 sources)",
+        "source_url": "",
+        "confidence": "medium",
+        "notes": "$3B annualized by May 2025",
+        "product_breakdown": null
+      },
+      {
+        "date": "2025-08-01",
+        "company": "anthropic",
+        "revenue_b": 5.0,
+        "metric_type": "run_rate",
+        "reporting_basis": "gross",
+        "source": "Anthropic official (Series F announcement)",
+        "source_url": "",
+        "confidence": "high",
+        "notes": "Series F at $183B valuation; >$5B annualized; Claude Code >$500M ARR",
+        "product_breakdown": {
+          "claude_code_b": 0.5,
+          "api_pct": 75,
+          "subscription_pct": 15
+        }
+      },
+      {
+        "date": "2025-10-01",
+        "company": "anthropic",
+        "revenue_b": 7.0,
+        "metric_type": "run_rate",
+        "reporting_basis": "gross",
+        "source": "Reuters (sources)",
+        "source_url": "",
+        "confidence": "medium",
+        "notes": "Approaching $7B annualized; Claude Code ~$1B ARR; internal target $9B by end-2025",
+        "product_breakdown": {
+          "claude_code_b": 1.0,
+          "api_pct": 75,
+          "subscription_pct": 15
+        }
+      },
+      {
+        "date": "2025-11-01",
+        "company": "anthropic",
+        "revenue_b": 3.8,
+        "metric_type": "run_rate",
+        "reporting_basis": "gross",
+        "source": "The Information",
+        "source_url": "",
+        "confidence": "medium",
+        "notes": "API revenue only: $3.8B ARR (vs OpenAI $1.8B from API). Total revenue higher.",
+        "product_breakdown": {
+          "api_pct": null,
+          "subscription_pct": null
+        }
+      },
+      {
+        "date": "2025-12-01",
+        "company": "anthropic",
+        "revenue_b": 9.0,
+        "metric_type": "run_rate",
+        "reporting_basis": "gross",
+        "source": "Anthropic confirmed (April 2026)",
+        "source_url": "",
+        "confidence": "high",
+        "notes": "~$9B end-of-year run-rate, confirmed by company in April 2026",
+        "product_breakdown": null
+      },
+      {
+        "date": "2026-02-01",
+        "company": "anthropic",
+        "revenue_b": 14.0,
+        "metric_type": "run_rate",
+        "reporting_basis": "gross",
+        "source": "Anthropic official (Series G announcement)",
+        "source_url": "",
+        "confidence": "high",
+        "notes": "Series G at $380B valuation; $14B run-rate; Claude Code $2.5B ARR; 500+ customers at $1M+",
+        "product_breakdown": {
+          "claude_code_b": 2.5,
+          "api_pct": 70,
+          "subscription_pct": 15
+        }
+      },
+      {
+        "date": "2026-03-01",
+        "company": "anthropic",
+        "revenue_b": 19.0,
+        "metric_type": "run_rate",
+        "reporting_basis": "gross",
+        "source": "Bloomberg / Reuters (sources)",
+        "source_url": "",
+        "confidence": "medium",
+        "notes": "~$19B annualized; reported by Bloomberg and Reuters citing sources",
+        "product_breakdown": null
+      },
+      {
+        "date": "2026-04-07",
+        "company": "anthropic",
+        "revenue_b": 30.0,
+        "metric_type": "run_rate",
+        "reporting_basis": "gross",
+        "source": "Anthropic official (Google/Broadcom announcement)",
+        "source_url": "",
+        "confidence": "high",
+        "notes": ">$30B run-rate; 1000+ customers at $1M+ (doubled from Feb); Google $10B + Amazon $5B investment",
+        "product_breakdown": {
+          "claude_code_b": null,
+          "api_pct": 70,
+          "subscription_pct": 15
+        }
+      }
+    ],
+    "qoq": [
+      {
+        "date": "2023-09-01",
+        "from_date": "2023-03-01",
+        "prev_revenue_b": 0.022,
+        "curr_revenue_b": 0.1,
+        "raw_growth_pct": 354.5,
+        "annualized_growth_pct": 1919.9,
+        "quarterly_growth_pct": 109.7,
+        "days_gap": 184
+      },
+      {
+        "date": "2023-12-01",
+        "from_date": "2023-09-01",
+        "prev_revenue_b": 0.1,
+        "curr_revenue_b": 0.2,
+        "raw_growth_pct": 100.0,
+        "annualized_growth_pct": 1515.3,
+        "quarterly_growth_pct": 98.5,
+        "days_gap": 91
+      },
+      {
+        "date": "2024-03-01",
+        "from_date": "2023-12-01",
+        "prev_revenue_b": 0.2,
+        "curr_revenue_b": 0.316,
+        "raw_growth_pct": 58.0,
+        "annualized_growth_pct": 527.1,
+        "quarterly_growth_pct": 57.2,
+        "days_gap": 91
+      },
+      {
+        "date": "2025-01-01",
+        "from_date": "2024-03-01",
+        "prev_revenue_b": 0.316,
+        "curr_revenue_b": 1.0,
+        "raw_growth_pct": 216.5,
+        "annualized_growth_pct": 295.5,
+        "quarterly_growth_pct": 40.3,
+        "days_gap": 306
+      },
+      {
+        "date": "2025-03-01",
+        "from_date": "2025-01-01",
+        "prev_revenue_b": 1.0,
+        "curr_revenue_b": 2.0,
+        "raw_growth_pct": 100.0,
+        "annualized_growth_pct": 7204.3,
+        "quarterly_growth_pct": 187.9,
+        "days_gap": 59
+      },
+      {
+        "date": "2025-05-01",
+        "from_date": "2025-03-01",
+        "prev_revenue_b": 2.0,
+        "curr_revenue_b": 3.0,
+        "raw_growth_pct": 50.0,
+        "annualized_growth_pct": 1033.4,
+        "quarterly_growth_pct": 81.9,
+        "days_gap": 61
+      },
+      {
+        "date": "2025-08-01",
+        "from_date": "2025-05-01",
+        "prev_revenue_b": 3.0,
+        "curr_revenue_b": 5.0,
+        "raw_growth_pct": 66.7,
+        "annualized_growth_pct": 659.9,
+        "quarterly_growth_pct": 64.8,
+        "days_gap": 92
+      },
+      {
+        "date": "2025-10-01",
+        "from_date": "2025-08-01",
+        "prev_revenue_b": 5.0,
+        "curr_revenue_b": 7.0,
+        "raw_growth_pct": 40.0,
+        "annualized_growth_pct": 649.8,
+        "quarterly_growth_pct": 64.3,
+        "days_gap": 61
+      },
+      {
+        "date": "2025-11-01",
+        "from_date": "2025-10-01",
+        "prev_revenue_b": 7.0,
+        "curr_revenue_b": 3.8,
+        "raw_growth_pct": -45.7,
+        "annualized_growth_pct": -99.9,
+        "quarterly_growth_pct": -83.0,
+        "days_gap": 31
+      },
+      {
+        "date": "2025-12-01",
+        "from_date": "2025-11-01",
+        "prev_revenue_b": 3.8,
+        "curr_revenue_b": 9.0,
+        "raw_growth_pct": 136.8,
+        "annualized_growth_pct": 3622640.8,
+        "quarterly_growth_pct": 1228.5,
+        "days_gap": 30
+      },
+      {
+        "date": "2026-02-01",
+        "from_date": "2025-12-01",
+        "prev_revenue_b": 9.0,
+        "curr_revenue_b": 14.0,
+        "raw_growth_pct": 55.6,
+        "annualized_growth_pct": 1250.3,
+        "quarterly_growth_pct": 89.9,
+        "days_gap": 62
+      },
+      {
+        "date": "2026-03-01",
+        "from_date": "2026-02-01",
+        "prev_revenue_b": 14.0,
+        "curr_revenue_b": 19.0,
+        "raw_growth_pct": 35.7,
+        "annualized_growth_pct": 5271.0,
+        "quarterly_growth_pct": 166.9,
+        "days_gap": 28
+      },
+      {
+        "date": "2026-04-07",
+        "from_date": "2026-03-01",
+        "prev_revenue_b": 19.0,
+        "curr_revenue_b": 30.0,
+        "raw_growth_pct": 57.9,
+        "annualized_growth_pct": 8982.6,
+        "quarterly_growth_pct": 203.7,
+        "days_gap": 37
+      }
+    ],
+    "yoy": [
+      {
+        "date": "2024-03-01",
+        "compare_date": "2023-03-01",
+        "revenue_b": 0.316,
+        "prev_revenue_b": 0.022,
+        "yoy_growth_pct": 1336.4,
+        "days_gap": 366
+      },
+      {
+        "date": "2025-01-01",
+        "compare_date": "2023-12-01",
+        "revenue_b": 1.0,
+        "prev_revenue_b": 0.2,
+        "yoy_growth_pct": 400.0,
+        "days_gap": 397
+      },
+      {
+        "date": "2025-03-01",
+        "compare_date": "2024-03-01",
+        "revenue_b": 2.0,
+        "prev_revenue_b": 0.316,
+        "yoy_growth_pct": 532.9,
+        "days_gap": 365
+      },
+      {
+        "date": "2025-05-01",
+        "compare_date": "2024-03-01",
+        "revenue_b": 3.0,
+        "prev_revenue_b": 0.316,
+        "yoy_growth_pct": 849.4,
+        "days_gap": 426
+      },
+      {
+        "date": "2025-11-01",
+        "compare_date": "2025-01-01",
+        "revenue_b": 3.8,
+        "prev_revenue_b": 1.0,
+        "yoy_growth_pct": 280.0,
+        "days_gap": 304
+      },
+      {
+        "date": "2025-12-01",
+        "compare_date": "2025-01-01",
+        "revenue_b": 9.0,
+        "prev_revenue_b": 1.0,
+        "yoy_growth_pct": 800.0,
+        "days_gap": 334
+      },
+      {
+        "date": "2026-02-01",
+        "compare_date": "2025-03-01",
+        "revenue_b": 14.0,
+        "prev_revenue_b": 2.0,
+        "yoy_growth_pct": 600.0,
+        "days_gap": 337
+      },
+      {
+        "date": "2026-03-01",
+        "compare_date": "2025-03-01",
+        "revenue_b": 19.0,
+        "prev_revenue_b": 2.0,
+        "yoy_growth_pct": 850.0,
+        "days_gap": 365
+      },
+      {
+        "date": "2026-04-07",
+        "compare_date": "2025-05-01",
+        "revenue_b": 30.0,
+        "prev_revenue_b": 3.0,
+        "yoy_growth_pct": 900.0,
+        "days_gap": 341
+      }
+    ],
+    "absolute_increment": [
+      {
+        "date": "2023-09-01",
+        "from_date": "2023-03-01",
+        "increment_b": 0.078,
+        "annualized_increment_b": 0.15,
+        "days_gap": 184
+      },
+      {
+        "date": "2023-12-01",
+        "from_date": "2023-09-01",
+        "increment_b": 0.1,
+        "annualized_increment_b": 0.4,
+        "days_gap": 91
+      },
+      {
+        "date": "2024-03-01",
+        "from_date": "2023-12-01",
+        "increment_b": 0.116,
+        "annualized_increment_b": 0.47,
+        "days_gap": 91
+      },
+      {
+        "date": "2025-01-01",
+        "from_date": "2024-03-01",
+        "increment_b": 0.684,
+        "annualized_increment_b": 0.82,
+        "days_gap": 306
+      },
+      {
+        "date": "2025-03-01",
+        "from_date": "2025-01-01",
+        "increment_b": 1.0,
+        "annualized_increment_b": 6.19,
+        "days_gap": 59
+      },
+      {
+        "date": "2025-05-01",
+        "from_date": "2025-03-01",
+        "increment_b": 1.0,
+        "annualized_increment_b": 5.99,
+        "days_gap": 61
+      },
+      {
+        "date": "2025-08-01",
+        "from_date": "2025-05-01",
+        "increment_b": 2.0,
+        "annualized_increment_b": 7.94,
+        "days_gap": 92
+      },
+      {
+        "date": "2025-10-01",
+        "from_date": "2025-08-01",
+        "increment_b": 2.0,
+        "annualized_increment_b": 11.98,
+        "days_gap": 61
+      },
+      {
+        "date": "2025-11-01",
+        "from_date": "2025-10-01",
+        "increment_b": -3.2,
+        "annualized_increment_b": -37.7,
+        "days_gap": 31
+      },
+      {
+        "date": "2025-12-01",
+        "from_date": "2025-11-01",
+        "increment_b": 5.2,
+        "annualized_increment_b": 63.31,
+        "days_gap": 30
+      },
+      {
+        "date": "2026-02-01",
+        "from_date": "2025-12-01",
+        "increment_b": 5.0,
+        "annualized_increment_b": 29.46,
+        "days_gap": 62
+      },
+      {
+        "date": "2026-03-01",
+        "from_date": "2026-02-01",
+        "increment_b": 5.0,
+        "annualized_increment_b": 65.22,
+        "days_gap": 28
+      },
+      {
+        "date": "2026-04-07",
+        "from_date": "2026-03-01",
+        "increment_b": 11.0,
+        "annualized_increment_b": 108.59,
+        "days_gap": 37
+      }
+    ],
+    "implied_monthly": [
+      {
+        "date": "2023-03-01",
+        "revenue_b": 0.022,
+        "implied_monthly_b": 0.002,
+        "metric_type": "arr"
+      },
+      {
+        "date": "2023-09-01",
+        "revenue_b": 0.1,
+        "implied_monthly_b": 0.008,
+        "metric_type": "run_rate"
+      },
+      {
+        "date": "2023-12-01",
+        "revenue_b": 0.2,
+        "implied_monthly_b": 0.017,
+        "metric_type": "arr"
+      },
+      {
+        "date": "2024-03-01",
+        "revenue_b": 0.316,
+        "implied_monthly_b": 0.026,
+        "metric_type": "arr"
+      },
+      {
+        "date": "2025-01-01",
+        "revenue_b": 1.0,
+        "implied_monthly_b": 0.083,
+        "metric_type": "run_rate"
+      },
+      {
+        "date": "2025-03-01",
+        "revenue_b": 2.0,
+        "implied_monthly_b": 0.167,
+        "metric_type": "run_rate"
+      },
+      {
+        "date": "2025-05-01",
+        "revenue_b": 3.0,
+        "implied_monthly_b": 0.25,
+        "metric_type": "run_rate"
+      },
+      {
+        "date": "2025-08-01",
+        "revenue_b": 5.0,
+        "implied_monthly_b": 0.417,
+        "metric_type": "run_rate"
+      },
+      {
+        "date": "2025-10-01",
+        "revenue_b": 7.0,
+        "implied_monthly_b": 0.583,
+        "metric_type": "run_rate"
+      },
+      {
+        "date": "2025-11-01",
+        "revenue_b": 3.8,
+        "implied_monthly_b": 0.317,
+        "metric_type": "run_rate"
+      },
+      {
+        "date": "2025-12-01",
+        "revenue_b": 9.0,
+        "implied_monthly_b": 0.75,
+        "metric_type": "run_rate"
+      },
+      {
+        "date": "2026-02-01",
+        "revenue_b": 14.0,
+        "implied_monthly_b": 1.167,
+        "metric_type": "run_rate"
+      },
+      {
+        "date": "2026-03-01",
+        "revenue_b": 19.0,
+        "implied_monthly_b": 1.583,
+        "metric_type": "run_rate"
+      },
+      {
+        "date": "2026-04-07",
+        "revenue_b": 30.0,
+        "implied_monthly_b": 2.5,
+        "metric_type": "run_rate"
+      }
+    ],
+    "inflections": {
+      "second_derivative": [
+        {
+          "date": "2023-12-01",
+          "growth_rate_pct": 1515.3,
+          "prev_growth_rate_pct": 1919.9,
+          "second_derivative": -404.6,
+          "second_derivative_per_month": -135.34,
+          "is_inflection": false,
+          "inflection_type": null
+        },
+        {
+          "date": "2024-03-01",
+          "growth_rate_pct": 527.1,
+          "prev_growth_rate_pct": 1515.3,
+          "second_derivative": -988.2,
+          "second_derivative_per_month": -330.56,
+          "is_inflection": false,
+          "inflection_type": null
+        },
+        {
+          "date": "2025-01-01",
+          "growth_rate_pct": 295.5,
+          "prev_growth_rate_pct": 527.1,
+          "second_derivative": -231.6,
+          "second_derivative_per_month": -23.04,
+          "is_inflection": false,
+          "inflection_type": null
+        },
+        {
+          "date": "2025-03-01",
+          "growth_rate_pct": 7204.3,
+          "prev_growth_rate_pct": 295.5,
+          "second_derivative": 6908.8,
+          "second_derivative_per_month": 3564.47,
+          "is_inflection": false,
+          "inflection_type": null
+        },
+        {
+          "date": "2025-05-01",
+          "growth_rate_pct": 1033.4,
+          "prev_growth_rate_pct": 7204.3,
+          "second_derivative": -6170.9,
+          "second_derivative_per_month": -3079.38,
+          "is_inflection": false,
+          "inflection_type": null
+        },
+        {
+          "date": "2025-08-01",
+          "growth_rate_pct": 659.9,
+          "prev_growth_rate_pct": 1033.4,
+          "second_derivative": -373.5,
+          "second_derivative_per_month": -123.58,
+          "is_inflection": false,
+          "inflection_type": null
+        },
+        {
+          "date": "2025-10-01",
+          "growth_rate_pct": 649.8,
+          "prev_growth_rate_pct": 659.9,
+          "second_derivative": -10.1,
+          "second_derivative_per_month": -5.04,
+          "is_inflection": false,
+          "inflection_type": null
+        },
+        {
+          "date": "2025-11-01",
+          "growth_rate_pct": -99.9,
+          "prev_growth_rate_pct": 649.8,
+          "second_derivative": -749.7,
+          "second_derivative_per_month": -736.16,
+          "is_inflection": true,
+          "inflection_type": "growth_peak",
+          "confirmed_by_regime": false
+        },
+        {
+          "date": "2025-12-01",
+          "growth_rate_pct": 3622640.8,
+          "prev_growth_rate_pct": -99.9,
+          "second_derivative": 3622740.7,
+          "second_derivative_per_month": 3675874.23,
+          "is_inflection": true,
+          "inflection_type": "growth_trough",
+          "confirmed_by_regime": false
+        },
+        {
+          "date": "2026-02-01",
+          "growth_rate_pct": 1250.3,
+          "prev_growth_rate_pct": 3622640.8,
+          "second_derivative": -3621390.5,
+          "second_derivative_per_month": -1777985.92,
+          "is_inflection": false,
+          "inflection_type": null
+        },
+        {
+          "date": "2026-03-01",
+          "growth_rate_pct": 5271.0,
+          "prev_growth_rate_pct": 1250.3,
+          "second_derivative": 4020.7,
+          "second_derivative_per_month": 4371.08,
+          "is_inflection": false,
+          "inflection_type": null
+        },
+        {
+          "date": "2026-04-07",
+          "growth_rate_pct": 8982.6,
+          "prev_growth_rate_pct": 5271.0,
+          "second_derivative": 3711.6,
+          "second_derivative_per_month": 3053.54,
+          "is_inflection": false,
+          "inflection_type": null
+        }
+      ],
+      "regime_changes": [
+        {
+          "date": "2024-01-01",
+          "index": 10,
+          "avg_growth_before_pct": 50.4,
+          "avg_growth_after_pct": 31.9,
+          "growth_delta_pct": -18.4,
+          "regime_shift": "deceleration"
+        },
+        {
+          "date": "2025-04-01",
+          "index": 25,
+          "avg_growth_before_pct": 100.0,
+          "avg_growth_after_pct": 46.5,
+          "growth_delta_pct": -53.5,
+          "regime_shift": "deceleration"
+        }
+      ],
+      "inflections": [
+        {
+          "date": "2025-11-01",
+          "growth_rate_pct": -99.9,
+          "prev_growth_rate_pct": 649.8,
+          "second_derivative": -749.7,
+          "second_derivative_per_month": -736.16,
+          "is_inflection": true,
+          "inflection_type": "growth_peak",
+          "confirmed_by_regime": false
+        },
+        {
+          "date": "2025-12-01",
+          "growth_rate_pct": 3622640.8,
+          "prev_growth_rate_pct": -99.9,
+          "second_derivative": 3622740.7,
+          "second_derivative_per_month": 3675874.23,
+          "is_inflection": true,
+          "inflection_type": "growth_trough",
+          "confirmed_by_regime": false
+        }
+      ],
+      "total_inflections_found": 2
+    },
+    "forecast_ensemble": {
+      "method": "tam_driven",
+      "company": "anthropic",
+      "primary_model": "tam_driven",
+      "segment_analysis": {
+        "api_enterprise": {
+          "tam_b": 120,
+          "addressable_tam_b": 48.0,
+          "current_share": 0.32,
+          "max_share": 0.4,
+          "current_penetration": 0.8003,
+          "years_into_diffusion": 11.54,
+          "bass_p": 0.03,
+          "bass_q": 0.3,
+          "current_rev_b": 21.0,
+          "ceiling_rev_b": 26.2,
+          "saturation_pct": 80.0,
+          "forecast_b": [
+            21.65,
+            22.32,
+            23.01,
+            23.71,
+            24.44,
+            25.18,
+            25.94,
+            26.72,
+            27.53,
+            28.35,
+            29.2,
+            30.07
+          ]
+        },
+        "coding_tools": {
+          "tam_b": 25,
+          "addressable_tam_b": 15.0,
+          "current_share": 0.54,
+          "max_share": 0.6,
+          "current_penetration": 0.9001,
+          "years_into_diffusion": 20.94,
+          "bass_p": 0.02,
+          "bass_q": 0.2,
+          "current_rev_b": 5.4,
+          "ceiling_rev_b": 6.0,
+          "saturation_pct": 90.0,
+          "forecast_b": [
+            5.51,
+            5.63,
+            5.74,
+            5.86,
+            5.98,
+            6.1,
+            6.23,
+            6.35,
+            6.48,
+            6.62,
+            6.75,
+            6.89
+          ]
+        },
+        "consumer_subscription": {
+          "tam_b": 15,
+          "addressable_tam_b": 3.0,
+          "current_share": 0.08,
+          "max_share": 0.2,
+          "current_penetration": 0.4002,
+          "years_into_diffusion": 11.19,
+          "bass_p": 0.01,
+          "bass_q": 0.25,
+          "current_rev_b": 3.6,
+          "ceiling_rev_b": 9.0,
+          "saturation_pct": 40.0,
+          "forecast_b": [
+            3.71,
+            3.81,
+            3.92,
+            4.04,
+            4.15,
+            4.27,
+            4.39,
+            4.52,
+            4.64,
+            4.77,
+            4.91,
+            5.04
+          ]
+        }
+      },
+      "forecast": [
+        {
+          "date": "2026-05-01",
+          "predicted_b": 30.87
+        },
+        {
+          "date": "2026-06-01",
+          "predicted_b": 31.76
+        },
+        {
+          "date": "2026-07-01",
+          "predicted_b": 32.67
+        },
+        {
+          "date": "2026-08-01",
+          "predicted_b": 33.61
+        },
+        {
+          "date": "2026-09-01",
+          "predicted_b": 34.57
+        },
+        {
+          "date": "2026-10-01",
+          "predicted_b": 35.55
+        },
+        {
+          "date": "2026-11-01",
+          "predicted_b": 36.56
+        },
+        {
+          "date": "2026-12-01",
+          "predicted_b": 37.59
+        },
+        {
+          "date": "2027-01-01",
+          "predicted_b": 38.65
+        },
+        {
+          "date": "2027-02-01",
+          "predicted_b": 39.74
+        },
+        {
+          "date": "2027-03-01",
+          "predicted_b": 40.86
+        },
+        {
+          "date": "2027-04-01",
+          "predicted_b": 42.0
+        }
+      ],
+      "confidence_interval_80": {
+        "upper": [
+          39.23,
+          39.46,
+          39.68,
+          39.9,
+          40.12,
+          40.34,
+          40.55,
+          40.76,
+          40.97,
+          41.17,
+          41.38,
+          41.58
+        ],
+        "lower": [
+          14.63,
+          14.71,
+          14.78,
+          14.85,
+          14.93,
+          15.0,
+          15.07,
+          15.14,
+          15.21,
+          15.28,
+          15.34,
+          15.41
+        ]
+      },
+      "assumptions": "Revenue = sum(TAM_segment * penetration_segment). Each segment follows Bass diffusion with segment-specific TAM ceiling. Growth decelerates as segments approach saturation. Claude Code near developer TAM ceiling; enterprise API still has runway. Consumer subscription limited by ChatGPT dominance."
+    },
+    "latest": {
+      "date": "2026-04-07",
+      "revenue_b": 30.0,
+      "reporting_basis": "gross",
+      "net_estimate_b": 27.0
+    }
+  },
+  "openai": {
+    "revenue_points": [
+      {
+        "date": "2022-01-01",
+        "company": "openai",
+        "revenue_b": 0.028,
+        "metric_type": "recognized",
+        "reporting_basis": "net",
+        "source": "Searchlab / LLM Rumors",
+        "source_url": "",
+        "confidence": "low",
+        "notes": "Full year 2022 revenue ~$28M; $540M losses on $28M revenue",
+        "product_breakdown": null
+      },
+      {
+        "date": "2023-01-01",
+        "company": "openai",
+        "revenue_b": 2.0,
+        "metric_type": "arr",
+        "reporting_basis": "net",
+        "source": "CFO Sarah Friar blog post (Jan 2026)",
+        "source_url": "",
+        "confidence": "high",
+        "notes": "CFO retrospective: $2B ARR for full year 2023",
+        "product_breakdown": null
+      },
+      {
+        "date": "2023-12-01",
+        "company": "openai",
+        "revenue_b": 1.6,
+        "metric_type": "arr",
+        "reporting_basis": "net",
+        "source": "SiliconANGLE",
+        "source_url": "",
+        "confidence": "low",
+        "notes": "Estimated ~$1.6B ARR around Dec 2023",
+        "product_breakdown": null
+      },
+      {
+        "date": "2024-01-01",
+        "company": "openai",
+        "revenue_b": 6.0,
+        "metric_type": "arr",
+        "reporting_basis": "net",
+        "source": "CFO Sarah Friar blog post (Jan 2026)",
+        "source_url": "",
+        "confidence": "high",
+        "notes": "CFO retrospective: $6B ARR for full year 2024",
+        "product_breakdown": null
+      },
+      {
+        "date": "2024-06-12",
+        "company": "openai",
+        "revenue_b": 3.4,
+        "metric_type": "arr",
+        "reporting_basis": "net",
+        "source": "FutureSearch.ai",
+        "source_url": "",
+        "confidence": "medium",
+        "notes": "Detailed breakdown: ChatGPT Plus $1.9B (56%), Enterprise $714M (21%), API $496M (15%), Other $290M (8%)",
+        "product_breakdown": {
+          "chatgpt_plus_b": 1.9,
+          "enterprise_b": 0.714,
+          "api_b": 0.496,
+          "other_b": 0.29,
+          "api_pct": 15,
+          "subscription_pct": 77
+        }
+      },
+      {
+        "date": "2024-12-01",
+        "company": "openai",
+        "revenue_b": 5.5,
+        "metric_type": "arr",
+        "reporting_basis": "net",
+        "source": "Reuters / CNBC",
+        "source_url": "",
+        "confidence": "medium",
+        "notes": "$5.5B ARR by end of 2024",
+        "product_breakdown": null
+      },
+      {
+        "date": "2025-01-01",
+        "company": "openai",
+        "revenue_b": 6.0,
+        "metric_type": "arr",
+        "reporting_basis": "net",
+        "source": "CFO Sarah Friar blog post (Jan 2026)",
+        "source_url": "",
+        "confidence": "high",
+        "notes": "CFO retrospective: $6B ARR at start of 2025; matches 2024 full-year figure",
+        "product_breakdown": null
+      },
+      {
+        "date": "2025-06-09",
+        "company": "openai",
+        "revenue_b": 10.0,
+        "metric_type": "run_rate",
+        "reporting_basis": "net",
+        "source": "OpenAI spokesperson to CNBC/Reuters",
+        "source_url": "",
+        "confidence": "high",
+        "notes": "Company spokesperson confirmed $10B ARR; excludes Microsoft licensing and one-time deals",
+        "product_breakdown": null
+      },
+      {
+        "date": "2025-07-01",
+        "company": "openai",
+        "revenue_b": 12.5,
+        "metric_type": "run_rate",
+        "reporting_basis": "net",
+        "source": "LLM Rumors / DailyResearchNews",
+        "source_url": "",
+        "confidence": "low",
+        "notes": "~$12-13B annualized by Jul-Aug 2025; estimated from multiple sources",
+        "product_breakdown": null
+      },
+      {
+        "date": "2025-10-01",
+        "company": "openai",
+        "revenue_b": 13.0,
+        "metric_type": "run_rate",
+        "reporting_basis": "net",
+        "source": "AI Business Weekly",
+        "source_url": "",
+        "confidence": "medium",
+        "notes": ">$1B/mo monthly recurring revenue; implies >$12B annualized, using ~$13B midpoint",
+        "product_breakdown": null
+      },
+      {
+        "date": "2025-12-31",
+        "company": "openai",
+        "revenue_b": 20.0,
+        "metric_type": "run_rate",
+        "reporting_basis": "net",
+        "source": "CFO Sarah Friar blog post (Jan 2026)",
+        "source_url": "",
+        "confidence": "high",
+        "notes": "CFO retrospective: $20B+ annualized by end of 2025",
+        "product_breakdown": null
+      },
+      {
+        "date": "2025-12-31",
+        "company": "openai",
+        "revenue_b": 21.4,
+        "metric_type": "run_rate",
+        "reporting_basis": "net",
+        "source": "The Information (Mar 2026)",
+        "source_url": "",
+        "confidence": "medium",
+        "notes": "The Information reported $21.4B annualized at end of Dec 2025",
+        "product_breakdown": null
+      },
+      {
+        "date": "2025-12-31",
+        "company": "openai",
+        "revenue_b": 13.1,
+        "metric_type": "recognized",
+        "reporting_basis": "net",
+        "source": "Internal documents via Jason Pollak",
+        "source_url": "",
+        "confidence": "medium",
+        "notes": "Actual recognized 2025 revenue $13.1B; beat $10B projection; significant gap vs $20B+ annualized",
+        "product_breakdown": null
+      },
+      {
+        "date": "2026-02-01",
+        "company": "openai",
+        "revenue_b": 25.0,
+        "metric_type": "run_rate",
+        "reporting_basis": "net",
+        "source": "The Information / Sacra",
+        "source_url": "",
+        "confidence": "medium",
+        "notes": "$25B annualized by Feb 2026; API added >$1B ARR in single month (Sam Altman Jan 2026)",
+        "product_breakdown": null
+      },
+      {
+        "date": "2026-04-01",
+        "company": "openai",
+        "revenue_b": 24.0,
+        "metric_type": "run_rate",
+        "reporting_basis": "net",
+        "source": "OpenAI fundraising materials (Reuters)",
+        "source_url": "",
+        "confidence": "high",
+        "notes": "$2B/mo (~$24B annualized); disclosed in Apr 2026 fundraising; enterprise now 40% of revenue (CRO Dresser)",
+        "product_breakdown": {
+          "enterprise_pct": 40,
+          "consumer_pct": 60,
+          "api_pct": 25,
+          "subscription_pct": 45
+        }
+      }
+    ],
+    "qoq": [
+      {
+        "date": "2023-01-01",
+        "from_date": "2022-01-01",
+        "prev_revenue_b": 0.028,
+        "curr_revenue_b": 2.0,
+        "raw_growth_pct": 7042.9,
+        "annualized_growth_pct": 7063.8,
+        "quarterly_growth_pct": 186.5,
+        "days_gap": 365
+      },
+      {
+        "date": "2023-12-01",
+        "from_date": "2023-01-01",
+        "prev_revenue_b": 2.0,
+        "curr_revenue_b": 1.6,
+        "raw_growth_pct": -20.0,
+        "annualized_growth_pct": -21.7,
+        "quarterly_growth_pct": -5.8,
+        "days_gap": 334
+      },
+      {
+        "date": "2024-01-01",
+        "from_date": "2023-12-01",
+        "prev_revenue_b": 1.6,
+        "curr_revenue_b": 6.0,
+        "raw_growth_pct": 275.0,
+        "annualized_growth_pct": 579941862.0,
+        "quarterly_growth_pct": 4540.3,
+        "days_gap": 31
+      },
+      {
+        "date": "2024-06-12",
+        "from_date": "2024-01-01",
+        "prev_revenue_b": 6.0,
+        "curr_revenue_b": 3.4,
+        "raw_growth_pct": -43.3,
+        "annualized_growth_pct": -72.0,
+        "quarterly_growth_pct": -26.9,
+        "days_gap": 163
+      },
+      {
+        "date": "2024-12-01",
+        "from_date": "2024-06-12",
+        "prev_revenue_b": 3.4,
+        "curr_revenue_b": 5.5,
+        "raw_growth_pct": 61.8,
+        "annualized_growth_pct": 177.7,
+        "quarterly_growth_pct": 28.6,
+        "days_gap": 172
+      },
+      {
+        "date": "2025-01-01",
+        "from_date": "2024-12-01",
+        "prev_revenue_b": 5.5,
+        "curr_revenue_b": 6.0,
+        "raw_growth_pct": 9.1,
+        "annualized_growth_pct": 178.8,
+        "quarterly_growth_pct": 28.7,
+        "days_gap": 31
+      },
+      {
+        "date": "2025-06-09",
+        "from_date": "2025-01-01",
+        "prev_revenue_b": 6.0,
+        "curr_revenue_b": 10.0,
+        "raw_growth_pct": 66.7,
+        "annualized_growth_pct": 223.3,
+        "quarterly_growth_pct": 33.5,
+        "days_gap": 159
+      },
+      {
+        "date": "2025-07-01",
+        "from_date": "2025-06-09",
+        "prev_revenue_b": 10.0,
+        "curr_revenue_b": 12.5,
+        "raw_growth_pct": 25.0,
+        "annualized_growth_pct": 3963.7,
+        "quarterly_growth_pct": 149.1,
+        "days_gap": 22
+      },
+      {
+        "date": "2025-10-01",
+        "from_date": "2025-07-01",
+        "prev_revenue_b": 12.5,
+        "curr_revenue_b": 13.0,
+        "raw_growth_pct": 4.0,
+        "annualized_growth_pct": 16.8,
+        "quarterly_growth_pct": 3.9,
+        "days_gap": 92
+      },
+      {
+        "date": "2025-12-31",
+        "from_date": "2025-10-01",
+        "prev_revenue_b": 13.0,
+        "curr_revenue_b": 20.0,
+        "raw_growth_pct": 53.8,
+        "annualized_growth_pct": 463.5,
+        "quarterly_growth_pct": 53.1,
+        "days_gap": 91
+      },
+      {
+        "date": "2026-02-01",
+        "from_date": "2025-12-31",
+        "prev_revenue_b": 13.1,
+        "curr_revenue_b": 25.0,
+        "raw_growth_pct": 90.8,
+        "annualized_growth_pct": 159697.6,
+        "quarterly_growth_pct": 515.7,
+        "days_gap": 32
+      },
+      {
+        "date": "2026-04-01",
+        "from_date": "2026-02-01",
+        "prev_revenue_b": 25.0,
+        "curr_revenue_b": 24.0,
+        "raw_growth_pct": -4.0,
+        "annualized_growth_pct": -22.3,
+        "quarterly_growth_pct": -6.0,
+        "days_gap": 59
+      }
+    ],
+    "yoy": [
+      {
+        "date": "2023-01-01",
+        "compare_date": "2022-01-01",
+        "revenue_b": 2.0,
+        "prev_revenue_b": 0.028,
+        "yoy_growth_pct": 7042.9,
+        "days_gap": 365
+      },
+      {
+        "date": "2023-12-01",
+        "compare_date": "2023-01-01",
+        "revenue_b": 1.6,
+        "prev_revenue_b": 2.0,
+        "yoy_growth_pct": -20.0,
+        "days_gap": 334
+      },
+      {
+        "date": "2024-01-01",
+        "compare_date": "2023-01-01",
+        "revenue_b": 6.0,
+        "prev_revenue_b": 2.0,
+        "yoy_growth_pct": 200.0,
+        "days_gap": 365
+      },
+      {
+        "date": "2024-12-01",
+        "compare_date": "2023-12-01",
+        "revenue_b": 5.5,
+        "prev_revenue_b": 1.6,
+        "yoy_growth_pct": 243.8,
+        "days_gap": 366
+      },
+      {
+        "date": "2025-01-01",
+        "compare_date": "2024-01-01",
+        "revenue_b": 6.0,
+        "prev_revenue_b": 6.0,
+        "yoy_growth_pct": 0.0,
+        "days_gap": 366
+      },
+      {
+        "date": "2025-06-09",
+        "compare_date": "2024-06-12",
+        "revenue_b": 10.0,
+        "prev_revenue_b": 3.4,
+        "yoy_growth_pct": 194.1,
+        "days_gap": 362
+      },
+      {
+        "date": "2025-07-01",
+        "compare_date": "2024-06-12",
+        "revenue_b": 12.5,
+        "prev_revenue_b": 3.4,
+        "yoy_growth_pct": 267.6,
+        "days_gap": 384
+      },
+      {
+        "date": "2025-10-01",
+        "compare_date": "2024-12-01",
+        "revenue_b": 13.0,
+        "prev_revenue_b": 5.5,
+        "yoy_growth_pct": 136.4,
+        "days_gap": 304
+      },
+      {
+        "date": "2025-12-31",
+        "compare_date": "2025-01-01",
+        "revenue_b": 20.0,
+        "prev_revenue_b": 6.0,
+        "yoy_growth_pct": 233.3,
+        "days_gap": 364
+      },
+      {
+        "date": "2025-12-31",
+        "compare_date": "2025-01-01",
+        "revenue_b": 21.4,
+        "prev_revenue_b": 6.0,
+        "yoy_growth_pct": 256.7,
+        "days_gap": 364
+      },
+      {
+        "date": "2025-12-31",
+        "compare_date": "2025-01-01",
+        "revenue_b": 13.1,
+        "prev_revenue_b": 6.0,
+        "yoy_growth_pct": 118.3,
+        "days_gap": 364
+      },
+      {
+        "date": "2026-02-01",
+        "compare_date": "2025-01-01",
+        "revenue_b": 25.0,
+        "prev_revenue_b": 6.0,
+        "yoy_growth_pct": 316.7,
+        "days_gap": 396
+      }
+    ],
+    "absolute_increment": [
+      {
+        "date": "2023-01-01",
+        "from_date": "2022-01-01",
+        "increment_b": 1.972,
+        "annualized_increment_b": 1.97,
+        "days_gap": 365
+      },
+      {
+        "date": "2023-12-01",
+        "from_date": "2023-01-01",
+        "increment_b": -0.4,
+        "annualized_increment_b": -0.44,
+        "days_gap": 334
+      },
+      {
+        "date": "2024-01-01",
+        "from_date": "2023-12-01",
+        "increment_b": 4.4,
+        "annualized_increment_b": 51.84,
+        "days_gap": 31
+      },
+      {
+        "date": "2024-06-12",
+        "from_date": "2024-01-01",
+        "increment_b": -2.6,
+        "annualized_increment_b": -5.83,
+        "days_gap": 163
+      },
+      {
+        "date": "2024-12-01",
+        "from_date": "2024-06-12",
+        "increment_b": 2.1,
+        "annualized_increment_b": 4.46,
+        "days_gap": 172
+      },
+      {
+        "date": "2025-01-01",
+        "from_date": "2024-12-01",
+        "increment_b": 0.5,
+        "annualized_increment_b": 5.89,
+        "days_gap": 31
+      },
+      {
+        "date": "2025-06-09",
+        "from_date": "2025-01-01",
+        "increment_b": 4.0,
+        "annualized_increment_b": 9.19,
+        "days_gap": 159
+      },
+      {
+        "date": "2025-07-01",
+        "from_date": "2025-06-09",
+        "increment_b": 2.5,
+        "annualized_increment_b": 41.51,
+        "days_gap": 22
+      },
+      {
+        "date": "2025-10-01",
+        "from_date": "2025-07-01",
+        "increment_b": 0.5,
+        "annualized_increment_b": 1.99,
+        "days_gap": 92
+      },
+      {
+        "date": "2025-12-31",
+        "from_date": "2025-10-01",
+        "increment_b": 7.0,
+        "annualized_increment_b": 28.1,
+        "days_gap": 91
+      },
+      {
+        "date": "2025-12-31",
+        "from_date": "2025-12-31",
+        "increment_b": 1.4,
+        "annualized_increment_b": 0,
+        "days_gap": 0
+      },
+      {
+        "date": "2025-12-31",
+        "from_date": "2025-12-31",
+        "increment_b": -8.3,
+        "annualized_increment_b": 0,
+        "days_gap": 0
+      },
+      {
+        "date": "2026-02-01",
+        "from_date": "2025-12-31",
+        "increment_b": 11.9,
+        "annualized_increment_b": 135.83,
+        "days_gap": 32
+      },
+      {
+        "date": "2026-04-01",
+        "from_date": "2026-02-01",
+        "increment_b": -1.0,
+        "annualized_increment_b": -6.19,
+        "days_gap": 59
+      }
+    ],
+    "implied_monthly": [
+      {
+        "date": "2023-01-01",
+        "revenue_b": 2.0,
+        "implied_monthly_b": 0.167,
+        "metric_type": "arr"
+      },
+      {
+        "date": "2023-12-01",
+        "revenue_b": 1.6,
+        "implied_monthly_b": 0.133,
+        "metric_type": "arr"
+      },
+      {
+        "date": "2024-01-01",
+        "revenue_b": 6.0,
+        "implied_monthly_b": 0.5,
+        "metric_type": "arr"
+      },
+      {
+        "date": "2024-06-12",
+        "revenue_b": 3.4,
+        "implied_monthly_b": 0.283,
+        "metric_type": "arr"
+      },
+      {
+        "date": "2024-12-01",
+        "revenue_b": 5.5,
+        "implied_monthly_b": 0.458,
+        "metric_type": "arr"
+      },
+      {
+        "date": "2025-01-01",
+        "revenue_b": 6.0,
+        "implied_monthly_b": 0.5,
+        "metric_type": "arr"
+      },
+      {
+        "date": "2025-06-09",
+        "revenue_b": 10.0,
+        "implied_monthly_b": 0.833,
+        "metric_type": "run_rate"
+      },
+      {
+        "date": "2025-07-01",
+        "revenue_b": 12.5,
+        "implied_monthly_b": 1.042,
+        "metric_type": "run_rate"
+      },
+      {
+        "date": "2025-10-01",
+        "revenue_b": 13.0,
+        "implied_monthly_b": 1.083,
+        "metric_type": "run_rate"
+      },
+      {
+        "date": "2025-12-31",
+        "revenue_b": 20.0,
+        "implied_monthly_b": 1.667,
+        "metric_type": "run_rate"
+      },
+      {
+        "date": "2025-12-31",
+        "revenue_b": 21.4,
+        "implied_monthly_b": 1.783,
+        "metric_type": "run_rate"
+      },
+      {
+        "date": "2026-02-01",
+        "revenue_b": 25.0,
+        "implied_monthly_b": 2.083,
+        "metric_type": "run_rate"
+      },
+      {
+        "date": "2026-04-01",
+        "revenue_b": 24.0,
+        "implied_monthly_b": 2.0,
+        "metric_type": "run_rate"
+      }
+    ],
+    "inflections": {
+      "second_derivative": [
+        {
+          "date": "2023-12-01",
+          "growth_rate_pct": -21.7,
+          "prev_growth_rate_pct": 7063.8,
+          "second_derivative": -7085.5,
+          "second_derivative_per_month": -645.76,
+          "is_inflection": true,
+          "inflection_type": "growth_peak",
+          "confirmed_by_regime": false
+        },
+        {
+          "date": "2024-01-01",
+          "growth_rate_pct": 579941862.0,
+          "prev_growth_rate_pct": -21.7,
+          "second_derivative": 579941883.7,
+          "second_derivative_per_month": 569465514.19,
+          "is_inflection": true,
+          "inflection_type": "growth_trough",
+          "confirmed_by_regime": false
+        },
+        {
+          "date": "2024-06-12",
+          "growth_rate_pct": -72.0,
+          "prev_growth_rate_pct": 579941862.0,
+          "second_derivative": -579941934.0,
+          "second_derivative_per_month": -108303266.69,
+          "is_inflection": true,
+          "inflection_type": "growth_peak",
+          "confirmed_by_regime": false
+        },
+        {
+          "date": "2024-12-01",
+          "growth_rate_pct": 177.7,
+          "prev_growth_rate_pct": -72.0,
+          "second_derivative": 249.7,
+          "second_derivative_per_month": 44.19,
+          "is_inflection": true,
+          "inflection_type": "growth_trough",
+          "confirmed_by_regime": false
+        },
+        {
+          "date": "2025-01-01",
+          "growth_rate_pct": 178.8,
+          "prev_growth_rate_pct": 177.7,
+          "second_derivative": 1.1,
+          "second_derivative_per_month": 1.08,
+          "is_inflection": false,
+          "inflection_type": null
+        },
+        {
+          "date": "2025-06-09",
+          "growth_rate_pct": 223.3,
+          "prev_growth_rate_pct": 178.8,
+          "second_derivative": 44.5,
+          "second_derivative_per_month": 8.52,
+          "is_inflection": false,
+          "inflection_type": null
+        },
+        {
+          "date": "2025-07-01",
+          "growth_rate_pct": 3963.7,
+          "prev_growth_rate_pct": 223.3,
+          "second_derivative": 3740.4,
+          "second_derivative_per_month": 5175.35,
+          "is_inflection": false,
+          "inflection_type": null
+        },
+        {
+          "date": "2025-10-01",
+          "growth_rate_pct": 16.8,
+          "prev_growth_rate_pct": 3963.7,
+          "second_derivative": -3946.9,
+          "second_derivative_per_month": -1305.91,
+          "is_inflection": false,
+          "inflection_type": null
+        },
+        {
+          "date": "2025-12-31",
+          "growth_rate_pct": 463.5,
+          "prev_growth_rate_pct": 16.8,
+          "second_derivative": 446.7,
+          "second_derivative_per_month": 149.42,
+          "is_inflection": false,
+          "inflection_type": null
+        },
+        {
+          "date": "2026-02-01",
+          "growth_rate_pct": 159697.6,
+          "prev_growth_rate_pct": 463.5,
+          "second_derivative": 159234.1,
+          "second_derivative_per_month": 151471.44,
+          "is_inflection": false,
+          "inflection_type": null
+        },
+        {
+          "date": "2026-04-01",
+          "growth_rate_pct": -22.3,
+          "prev_growth_rate_pct": 159697.6,
+          "second_derivative": -159719.9,
+          "second_derivative_per_month": -82404.64,
+          "is_inflection": true,
+          "inflection_type": "growth_peak",
+          "confirmed_by_regime": false
+        }
+      ],
+      "regime_changes": [
+        {
+          "date": "2022-06-01",
+          "index": 5,
+          "avg_growth_before_pct": 95.0,
+          "avg_growth_after_pct": 39.1,
+          "growth_delta_pct": -56.0,
+          "regime_shift": "deceleration"
+        },
+        {
+          "date": "2024-11-01",
+          "index": 35,
+          "avg_growth_before_pct": 18.6,
+          "avg_growth_after_pct": 16.9,
+          "growth_delta_pct": -1.7,
+          "regime_shift": "deceleration"
+        }
+      ],
+      "inflections": [
+        {
+          "date": "2023-12-01",
+          "growth_rate_pct": -21.7,
+          "prev_growth_rate_pct": 7063.8,
+          "second_derivative": -7085.5,
+          "second_derivative_per_month": -645.76,
+          "is_inflection": true,
+          "inflection_type": "growth_peak",
+          "confirmed_by_regime": false
+        },
+        {
+          "date": "2024-01-01",
+          "growth_rate_pct": 579941862.0,
+          "prev_growth_rate_pct": -21.7,
+          "second_derivative": 579941883.7,
+          "second_derivative_per_month": 569465514.19,
+          "is_inflection": true,
+          "inflection_type": "growth_trough",
+          "confirmed_by_regime": false
+        },
+        {
+          "date": "2024-06-12",
+          "growth_rate_pct": -72.0,
+          "prev_growth_rate_pct": 579941862.0,
+          "second_derivative": -579941934.0,
+          "second_derivative_per_month": -108303266.69,
+          "is_inflection": true,
+          "inflection_type": "growth_peak",
+          "confirmed_by_regime": false
+        },
+        {
+          "date": "2024-12-01",
+          "growth_rate_pct": 177.7,
+          "prev_growth_rate_pct": -72.0,
+          "second_derivative": 249.7,
+          "second_derivative_per_month": 44.19,
+          "is_inflection": true,
+          "inflection_type": "growth_trough",
+          "confirmed_by_regime": false
+        },
+        {
+          "date": "2026-04-01",
+          "growth_rate_pct": -22.3,
+          "prev_growth_rate_pct": 159697.6,
+          "second_derivative": -159719.9,
+          "second_derivative_per_month": -82404.64,
+          "is_inflection": true,
+          "inflection_type": "growth_peak",
+          "confirmed_by_regime": false
+        }
+      ],
+      "total_inflections_found": 5
+    },
+    "forecast_ensemble": {
+      "method": "tam_driven",
+      "company": "openai",
+      "primary_model": "tam_driven",
+      "segment_analysis": {
+        "consumer_subscription": {
+          "tam_b": 15,
+          "addressable_tam_b": 9.8,
+          "current_share": 0.6,
+          "max_share": 0.65,
+          "current_penetration": 0.3852,
+          "years_into_diffusion": 15.0,
+          "bass_p": 0.01,
+          "bass_q": 0.15,
+          "current_rev_b": 10.8,
+          "ceiling_rev_b": 28.0,
+          "saturation_pct": 92.3,
+          "forecast_b": [
+            11.06,
+            11.33,
+            11.61,
+            11.89,
+            12.18,
+            12.47,
+            12.77,
+            13.08,
+            13.4,
+            13.72,
+            14.04,
+            14.38
+          ]
+        },
+        "enterprise_api": {
+          "tam_b": 120,
+          "addressable_tam_b": 42.0,
+          "current_share": 0.25,
+          "max_share": 0.35,
+          "current_penetration": 0.7147,
+          "years_into_diffusion": 9.18,
+          "bass_p": 0.03,
+          "bass_q": 0.35,
+          "current_rev_b": 8.4,
+          "ceiling_rev_b": 11.8,
+          "saturation_pct": 71.4,
+          "forecast_b": [
+            8.69,
+            8.99,
+            9.3,
+            9.62,
+            9.95,
+            10.28,
+            10.62,
+            10.98,
+            11.34,
+            11.71,
+            12.1,
+            12.49
+          ]
+        },
+        "microsoft_partnership": {
+          "tam_b": 30,
+          "addressable_tam_b": 16.5,
+          "current_share": 0.5,
+          "max_share": 0.55,
+          "current_penetration": 0.9091,
+          "years_into_diffusion": 21.41,
+          "bass_p": 0.02,
+          "bass_q": 0.2,
+          "current_rev_b": 2.4,
+          "ceiling_rev_b": 2.6,
+          "saturation_pct": 90.9,
+          "forecast_b": [
+            2.45,
+            2.5,
+            2.55,
+            2.6,
+            2.66,
+            2.71,
+            2.76,
+            2.82,
+            2.88,
+            2.94,
+            2.99,
+            3.06
+          ]
+        }
+      },
+      "forecast": [
+        {
+          "date": "2026-05-01",
+          "predicted_b": 22.2
+        },
+        {
+          "date": "2026-05-01",
+          "predicted_b": 22.82
+        },
+        {
+          "date": "2026-07-01",
+          "predicted_b": 23.46
+        },
+        {
+          "date": "2026-07-01",
+          "predicted_b": 24.11
+        },
+        {
+          "date": "2026-08-01",
+          "predicted_b": 24.79
+        },
+        {
+          "date": "2026-09-01",
+          "predicted_b": 25.46
+        },
+        {
+          "date": "2026-10-01",
+          "predicted_b": 26.15
+        },
+        {
+          "date": "2026-11-01",
+          "predicted_b": 26.88
+        },
+        {
+          "date": "2026-12-01",
+          "predicted_b": 27.62
+        },
+        {
+          "date": "2027-01-01",
+          "predicted_b": 28.37
+        },
+        {
+          "date": "2027-03-01",
+          "predicted_b": 29.13
+        },
+        {
+          "date": "2027-04-01",
+          "predicted_b": 29.93
+        }
+      ],
+      "confidence_interval_80": {
+        "upper": [
+          28.31,
+          28.54,
+          28.77,
+          29.0,
+          29.23,
+          29.46,
+          29.68,
+          29.9,
+          30.12,
+          30.34,
+          30.56,
+          30.78
+        ],
+        "lower": [
+          11.53,
+          11.62,
+          11.72,
+          11.81,
+          11.9,
+          11.99,
+          12.08,
+          12.17,
+          12.26,
+          12.35,
+          12.44,
+          12.53
+        ]
+      },
+      "assumptions": "Revenue = sum(TAM_segment * penetration_segment). Each segment follows Bass diffusion with segment-specific TAM ceiling. Growth decelerates as segments approach saturation. Claude Code near developer TAM ceiling; enterprise API still has runway. Consumer subscription limited by ChatGPT dominance."
+    },
+    "latest": {
+      "date": "2026-04-01",
+      "revenue_b": 24.0,
+      "reporting_basis": "net",
+      "gross_estimate_b": 25.44
+    }
+  },
+  "comparison": {
+    "crossover_net": {
+      "basis": "net",
+      "current_anthro_b": 27.0,
+      "current_openai_b": 24.0,
+      "current_gap_b": -3.0,
+      "crossover_found": true,
+      "crossover_date": "2026-05-01",
+      "crossover_revenue_b": 27.78,
+      "anthro_forecast": {
+        "method": "tam_driven",
+        "company": "anthropic",
+        "primary_model": "tam_driven",
+        "segment_analysis": {
+          "api_enterprise": {
+            "tam_b": 120,
+            "addressable_tam_b": 48.0,
+            "current_share": 0.32,
+            "max_share": 0.4,
+            "current_penetration": 0.8003,
+            "years_into_diffusion": 11.54,
+            "bass_p": 0.03,
+            "bass_q": 0.3,
+            "current_rev_b": 18.9,
+            "ceiling_rev_b": 23.6,
+            "saturation_pct": 80.0,
+            "forecast_b": [
+              19.49,
+              20.09,
+              20.71,
+              21.34,
+              21.99,
+              22.66,
+              23.35,
+              24.05,
+              24.77,
+              25.52,
+              26.28,
+              27.06
+            ]
+          },
+          "coding_tools": {
+            "tam_b": 25,
+            "addressable_tam_b": 15.0,
+            "current_share": 0.54,
+            "max_share": 0.6,
+            "current_penetration": 0.9001,
+            "years_into_diffusion": 20.94,
+            "bass_p": 0.02,
+            "bass_q": 0.2,
+            "current_rev_b": 4.86,
+            "ceiling_rev_b": 5.4,
+            "saturation_pct": 90.0,
+            "forecast_b": [
+              4.96,
+              5.06,
+              5.17,
+              5.27,
+              5.38,
+              5.49,
+              5.6,
+              5.72,
+              5.83,
+              5.95,
+              6.07,
+              6.2
+            ]
+          },
+          "consumer_subscription": {
+            "tam_b": 15,
+            "addressable_tam_b": 3.0,
+            "current_share": 0.08,
+            "max_share": 0.2,
+            "current_penetration": 0.4002,
+            "years_into_diffusion": 11.19,
+            "bass_p": 0.01,
+            "bass_q": 0.25,
+            "current_rev_b": 3.24,
+            "ceiling_rev_b": 8.1,
+            "saturation_pct": 40.0,
+            "forecast_b": [
+              3.33,
+              3.43,
+              3.53,
+              3.63,
+              3.74,
+              3.84,
+              3.95,
+              4.07,
+              4.18,
+              4.3,
+              4.42,
+              4.54
+            ]
+          }
+        },
+        "forecast": [
+          {
+            "date": "2026-05-01",
+            "predicted_b": 27.78
+          },
+          {
+            "date": "2026-06-01",
+            "predicted_b": 28.58
+          },
+          {
+            "date": "2026-07-01",
+            "predicted_b": 29.41
+          },
+          {
+            "date": "2026-08-01",
+            "predicted_b": 30.24
+          },
+          {
+            "date": "2026-09-01",
+            "predicted_b": 31.11
+          },
+          {
+            "date": "2026-10-01",
+            "predicted_b": 31.99
+          },
+          {
+            "date": "2026-11-01",
+            "predicted_b": 32.9
+          },
+          {
+            "date": "2026-12-01",
+            "predicted_b": 33.84
+          },
+          {
+            "date": "2027-01-01",
+            "predicted_b": 34.78
+          },
+          {
+            "date": "2027-02-01",
+            "predicted_b": 35.77
+          },
+          {
+            "date": "2027-03-01",
+            "predicted_b": 36.77
+          },
+          {
+            "date": "2027-04-01",
+            "predicted_b": 37.8
+          }
+        ],
+        "confidence_interval_80": {
+          "upper": [
+            35.31,
+            35.51,
+            35.71,
+            35.91,
+            36.11,
+            36.3,
+            36.49,
+            36.68,
+            36.87,
+            37.06,
+            37.24,
+            37.42
+          ],
+          "lower": [
+            13.17,
+            13.24,
+            13.3,
+            13.37,
+            13.43,
+            13.5,
+            13.56,
+            13.63,
+            13.69,
+            13.75,
+            13.81,
+            13.87
+          ]
+        },
+        "assumptions": "Revenue = sum(TAM_segment * penetration_segment). Each segment follows Bass diffusion with segment-specific TAM ceiling. Growth decelerates as segments approach saturation. Claude Code near developer TAM ceiling; enterprise API still has runway. Consumer subscription limited by ChatGPT dominance."
+      },
+      "openai_forecast": {
+        "method": "tam_driven",
+        "company": "openai",
+        "primary_model": "tam_driven",
+        "segment_analysis": {
+          "consumer_subscription": {
+            "tam_b": 15,
+            "addressable_tam_b": 9.8,
+            "current_share": 0.6,
+            "max_share": 0.65,
+            "current_penetration": 0.3852,
+            "years_into_diffusion": 15.0,
+            "bass_p": 0.01,
+            "bass_q": 0.15,
+            "current_rev_b": 10.8,
+            "ceiling_rev_b": 28.0,
+            "saturation_pct": 92.3,
+            "forecast_b": [
+              11.06,
+              11.33,
+              11.61,
+              11.89,
+              12.18,
+              12.47,
+              12.77,
+              13.08,
+              13.4,
+              13.72,
+              14.04,
+              14.38
+            ]
+          },
+          "enterprise_api": {
+            "tam_b": 120,
+            "addressable_tam_b": 42.0,
+            "current_share": 0.25,
+            "max_share": 0.35,
+            "current_penetration": 0.7147,
+            "years_into_diffusion": 9.18,
+            "bass_p": 0.03,
+            "bass_q": 0.35,
+            "current_rev_b": 8.4,
+            "ceiling_rev_b": 11.8,
+            "saturation_pct": 71.4,
+            "forecast_b": [
+              8.69,
+              8.99,
+              9.3,
+              9.62,
+              9.95,
+              10.28,
+              10.62,
+              10.98,
+              11.34,
+              11.71,
+              12.1,
+              12.49
+            ]
+          },
+          "microsoft_partnership": {
+            "tam_b": 30,
+            "addressable_tam_b": 16.5,
+            "current_share": 0.5,
+            "max_share": 0.55,
+            "current_penetration": 0.9091,
+            "years_into_diffusion": 21.41,
+            "bass_p": 0.02,
+            "bass_q": 0.2,
+            "current_rev_b": 2.4,
+            "ceiling_rev_b": 2.6,
+            "saturation_pct": 90.9,
+            "forecast_b": [
+              2.45,
+              2.5,
+              2.55,
+              2.6,
+              2.66,
+              2.71,
+              2.76,
+              2.82,
+              2.88,
+              2.94,
+              2.99,
+              3.06
+            ]
+          }
+        },
+        "forecast": [
+          {
+            "date": "2026-05-01",
+            "predicted_b": 22.2
+          },
+          {
+            "date": "2026-05-01",
+            "predicted_b": 22.82
+          },
+          {
+            "date": "2026-07-01",
+            "predicted_b": 23.46
+          },
+          {
+            "date": "2026-07-01",
+            "predicted_b": 24.11
+          },
+          {
+            "date": "2026-08-01",
+            "predicted_b": 24.79
+          },
+          {
+            "date": "2026-09-01",
+            "predicted_b": 25.46
+          },
+          {
+            "date": "2026-10-01",
+            "predicted_b": 26.15
+          },
+          {
+            "date": "2026-11-01",
+            "predicted_b": 26.88
+          },
+          {
+            "date": "2026-12-01",
+            "predicted_b": 27.62
+          },
+          {
+            "date": "2027-01-01",
+            "predicted_b": 28.37
+          },
+          {
+            "date": "2027-03-01",
+            "predicted_b": 29.13
+          },
+          {
+            "date": "2027-04-01",
+            "predicted_b": 29.93
+          }
+        ],
+        "confidence_interval_80": {
+          "upper": [
+            28.31,
+            28.54,
+            28.77,
+            29.0,
+            29.23,
+            29.46,
+            29.68,
+            29.9,
+            30.12,
+            30.34,
+            30.56,
+            30.78
+          ],
+          "lower": [
+            11.53,
+            11.62,
+            11.72,
+            11.81,
+            11.9,
+            11.99,
+            12.08,
+            12.17,
+            12.26,
+            12.35,
+            12.44,
+            12.53
+          ]
+        },
+        "assumptions": "Revenue = sum(TAM_segment * penetration_segment). Each segment follows Bass diffusion with segment-specific TAM ceiling. Growth decelerates as segments approach saturation. Claude Code near developer TAM ceiling; enterprise API still has runway. Consumer subscription limited by ChatGPT dominance."
+      }
+    },
+    "crossover_gross": {
+      "basis": "gross",
+      "current_anthro_b": 30.0,
+      "current_openai_b": 24.0,
+      "current_gap_b": -6.0,
+      "crossover_found": true,
+      "crossover_date": "2026-05-01",
+      "crossover_revenue_b": 30.87,
+      "anthro_forecast": {
+        "method": "tam_driven",
+        "company": "anthropic",
+        "primary_model": "tam_driven",
+        "segment_analysis": {
+          "api_enterprise": {
+            "tam_b": 120,
+            "addressable_tam_b": 48.0,
+            "current_share": 0.32,
+            "max_share": 0.4,
+            "current_penetration": 0.8003,
+            "years_into_diffusion": 11.54,
+            "bass_p": 0.03,
+            "bass_q": 0.3,
+            "current_rev_b": 21.0,
+            "ceiling_rev_b": 26.2,
+            "saturation_pct": 80.0,
+            "forecast_b": [
+              21.65,
+              22.32,
+              23.01,
+              23.71,
+              24.44,
+              25.18,
+              25.94,
+              26.72,
+              27.53,
+              28.35,
+              29.2,
+              30.07
+            ]
+          },
+          "coding_tools": {
+            "tam_b": 25,
+            "addressable_tam_b": 15.0,
+            "current_share": 0.54,
+            "max_share": 0.6,
+            "current_penetration": 0.9001,
+            "years_into_diffusion": 20.94,
+            "bass_p": 0.02,
+            "bass_q": 0.2,
+            "current_rev_b": 5.4,
+            "ceiling_rev_b": 6.0,
+            "saturation_pct": 90.0,
+            "forecast_b": [
+              5.51,
+              5.63,
+              5.74,
+              5.86,
+              5.98,
+              6.1,
+              6.23,
+              6.35,
+              6.48,
+              6.62,
+              6.75,
+              6.89
+            ]
+          },
+          "consumer_subscription": {
+            "tam_b": 15,
+            "addressable_tam_b": 3.0,
+            "current_share": 0.08,
+            "max_share": 0.2,
+            "current_penetration": 0.4002,
+            "years_into_diffusion": 11.19,
+            "bass_p": 0.01,
+            "bass_q": 0.25,
+            "current_rev_b": 3.6,
+            "ceiling_rev_b": 9.0,
+            "saturation_pct": 40.0,
+            "forecast_b": [
+              3.71,
+              3.81,
+              3.92,
+              4.04,
+              4.15,
+              4.27,
+              4.39,
+              4.52,
+              4.64,
+              4.77,
+              4.91,
+              5.04
+            ]
+          }
+        },
+        "forecast": [
+          {
+            "date": "2026-05-01",
+            "predicted_b": 30.87
+          },
+          {
+            "date": "2026-06-01",
+            "predicted_b": 31.76
+          },
+          {
+            "date": "2026-07-01",
+            "predicted_b": 32.67
+          },
+          {
+            "date": "2026-08-01",
+            "predicted_b": 33.61
+          },
+          {
+            "date": "2026-09-01",
+            "predicted_b": 34.57
+          },
+          {
+            "date": "2026-10-01",
+            "predicted_b": 35.55
+          },
+          {
+            "date": "2026-11-01",
+            "predicted_b": 36.56
+          },
+          {
+            "date": "2026-12-01",
+            "predicted_b": 37.59
+          },
+          {
+            "date": "2027-01-01",
+            "predicted_b": 38.65
+          },
+          {
+            "date": "2027-02-01",
+            "predicted_b": 39.74
+          },
+          {
+            "date": "2027-03-01",
+            "predicted_b": 40.86
+          },
+          {
+            "date": "2027-04-01",
+            "predicted_b": 42.0
+          }
+        ],
+        "confidence_interval_80": {
+          "upper": [
+            39.23,
+            39.46,
+            39.68,
+            39.9,
+            40.12,
+            40.34,
+            40.55,
+            40.76,
+            40.97,
+            41.17,
+            41.38,
+            41.58
+          ],
+          "lower": [
+            14.63,
+            14.71,
+            14.78,
+            14.85,
+            14.93,
+            15.0,
+            15.07,
+            15.14,
+            15.21,
+            15.28,
+            15.34,
+            15.41
+          ]
+        },
+        "assumptions": "Revenue = sum(TAM_segment * penetration_segment). Each segment follows Bass diffusion with segment-specific TAM ceiling. Growth decelerates as segments approach saturation. Claude Code near developer TAM ceiling; enterprise API still has runway. Consumer subscription limited by ChatGPT dominance."
+      },
+      "openai_forecast": {
+        "method": "tam_driven",
+        "company": "openai",
+        "primary_model": "tam_driven",
+        "segment_analysis": {
+          "consumer_subscription": {
+            "tam_b": 15,
+            "addressable_tam_b": 9.8,
+            "current_share": 0.6,
+            "max_share": 0.65,
+            "current_penetration": 0.3852,
+            "years_into_diffusion": 15.0,
+            "bass_p": 0.01,
+            "bass_q": 0.15,
+            "current_rev_b": 11.45,
+            "ceiling_rev_b": 29.7,
+            "saturation_pct": 92.3,
+            "forecast_b": [
+              11.73,
+              12.01,
+              12.31,
+              12.61,
+              12.91,
+              13.22,
+              13.54,
+              13.87,
+              14.2,
+              14.54,
+              14.89,
+              15.24
+            ]
+          },
+          "enterprise_api": {
+            "tam_b": 120,
+            "addressable_tam_b": 42.0,
+            "current_share": 0.25,
+            "max_share": 0.35,
+            "current_penetration": 0.7147,
+            "years_into_diffusion": 9.18,
+            "bass_p": 0.03,
+            "bass_q": 0.35,
+            "current_rev_b": 8.9,
+            "ceiling_rev_b": 12.5,
+            "saturation_pct": 71.4,
+            "forecast_b": [
+              9.21,
+              9.53,
+              9.86,
+              10.2,
+              10.54,
+              10.9,
+              11.26,
+              11.64,
+              12.02,
+              12.42,
+              12.82,
+              13.24
+            ]
+          },
+          "microsoft_partnership": {
+            "tam_b": 30,
+            "addressable_tam_b": 16.5,
+            "current_share": 0.5,
+            "max_share": 0.55,
+            "current_penetration": 0.9091,
+            "years_into_diffusion": 21.41,
+            "bass_p": 0.02,
+            "bass_q": 0.2,
+            "current_rev_b": 2.54,
+            "ceiling_rev_b": 2.8,
+            "saturation_pct": 90.9,
+            "forecast_b": [
+              2.6,
+              2.65,
+              2.7,
+              2.76,
+              2.81,
+              2.87,
+              2.93,
+              2.99,
+              3.05,
+              3.11,
+              3.17,
+              3.24
+            ]
+          }
+        },
+        "forecast": [
+          {
+            "date": "2026-05-01",
+            "predicted_b": 23.54
+          },
+          {
+            "date": "2026-05-01",
+            "predicted_b": 24.19
+          },
+          {
+            "date": "2026-07-01",
+            "predicted_b": 24.87
+          },
+          {
+            "date": "2026-07-01",
+            "predicted_b": 25.57
+          },
+          {
+            "date": "2026-08-01",
+            "predicted_b": 26.26
+          },
+          {
+            "date": "2026-09-01",
+            "predicted_b": 26.99
+          },
+          {
+            "date": "2026-10-01",
+            "predicted_b": 27.73
+          },
+          {
+            "date": "2026-11-01",
+            "predicted_b": 28.5
+          },
+          {
+            "date": "2026-12-01",
+            "predicted_b": 29.27
+          },
+          {
+            "date": "2027-01-01",
+            "predicted_b": 30.07
+          },
+          {
+            "date": "2027-03-01",
+            "predicted_b": 30.88
+          },
+          {
+            "date": "2027-04-01",
+            "predicted_b": 31.72
+          }
+        ],
+        "confidence_interval_80": {
+          "upper": [
+            30.01,
+            30.26,
+            30.5,
+            30.74,
+            30.98,
+            31.22,
+            31.46,
+            31.7,
+            31.93,
+            32.17,
+            32.4,
+            32.63
+          ],
+          "lower": [
+            12.22,
+            12.32,
+            12.42,
+            12.52,
+            12.61,
+            12.71,
+            12.81,
+            12.9,
+            13.0,
+            13.09,
+            13.19,
+            13.28
+          ]
+        },
+        "assumptions": "Revenue = sum(TAM_segment * penetration_segment). Each segment follows Bass diffusion with segment-specific TAM ceiling. Growth decelerates as segments approach saturation. Claude Code near developer TAM ceiling; enterprise API still has runway. Consumer subscription limited by ChatGPT dominance."
+      }
+    },
+    "inflection_comparison": {
+      "anthropic": {
+        "inflection_count": 2,
+        "inflections": [
+          {
+            "date": "2025-11-01",
+            "growth_rate_pct": -99.9,
+            "prev_growth_rate_pct": 649.8,
+            "second_derivative": -749.7,
+            "second_derivative_per_month": -736.16,
+            "is_inflection": true,
+            "inflection_type": "growth_peak",
+            "confirmed_by_regime": false
+          },
+          {
+            "date": "2025-12-01",
+            "growth_rate_pct": 3622640.8,
+            "prev_growth_rate_pct": -99.9,
+            "second_derivative": 3622740.7,
+            "second_derivative_per_month": 3675874.23,
+            "is_inflection": true,
+            "inflection_type": "growth_trough",
+            "confirmed_by_regime": false
+          }
+        ]
+      },
+      "openai": {
+        "inflection_count": 5,
+        "inflections": [
+          {
+            "date": "2023-12-01",
+            "growth_rate_pct": -21.7,
+            "prev_growth_rate_pct": 7063.8,
+            "second_derivative": -7085.5,
+            "second_derivative_per_month": -645.76,
+            "is_inflection": true,
+            "inflection_type": "growth_peak",
+            "confirmed_by_regime": false
+          },
+          {
+            "date": "2024-01-01",
+            "growth_rate_pct": 579941862.0,
+            "prev_growth_rate_pct": -21.7,
+            "second_derivative": 579941883.7,
+            "second_derivative_per_month": 569465514.19,
+            "is_inflection": true,
+            "inflection_type": "growth_trough",
+            "confirmed_by_regime": false
+          },
+          {
+            "date": "2024-06-12",
+            "growth_rate_pct": -72.0,
+            "prev_growth_rate_pct": 579941862.0,
+            "second_derivative": -579941934.0,
+            "second_derivative_per_month": -108303266.69,
+            "is_inflection": true,
+            "inflection_type": "growth_peak",
+            "confirmed_by_regime": false
+          },
+          {
+            "date": "2024-12-01",
+            "growth_rate_pct": 177.7,
+            "prev_growth_rate_pct": -72.0,
+            "second_derivative": 249.7,
+            "second_derivative_per_month": 44.19,
+            "is_inflection": true,
+            "inflection_type": "growth_trough",
+            "confirmed_by_regime": false
+          },
+          {
+            "date": "2026-04-01",
+            "growth_rate_pct": -22.3,
+            "prev_growth_rate_pct": 159697.6,
+            "second_derivative": -159719.9,
+            "second_derivative_per_month": -82404.64,
+            "is_inflection": true,
+            "inflection_type": "growth_peak",
+            "confirmed_by_regime": false
+          }
+        ]
+      },
+      "comparisons": [
+        {
+          "inflection_type": "growth_peak",
+          "anthropic_date": "2025-11-01",
+          "openai_date": "2023-12-01",
+          "days_apart": 701,
+          "who_first": "openai"
+        },
+        {
+          "inflection_type": "growth_peak",
+          "anthropic_date": "2025-11-01",
+          "openai_date": "2024-06-12",
+          "days_apart": 507,
+          "who_first": "openai"
+        },
+        {
+          "inflection_type": "growth_peak",
+          "anthropic_date": "2025-11-01",
+          "openai_date": "2026-04-01",
+          "days_apart": -151,
+          "who_first": "anthropic"
+        },
+        {
+          "inflection_type": "growth_trough",
+          "anthropic_date": "2025-12-01",
+          "openai_date": "2024-01-01",
+          "days_apart": 700,
+          "who_first": "openai"
+        },
+        {
+          "inflection_type": "growth_trough",
+          "anthropic_date": "2025-12-01",
+          "openai_date": "2024-12-01",
+          "days_apart": 365,
+          "who_first": "openai"
+        }
+      ]
+    }
+  },
+  "sensitivity": {
+    "anthropic_net_range": [
+      {
+        "param_value": 0.15,
+        "latest_revenue_b": 30.0,
+        "adjusted_revenue_b": 28.2,
+        "adjustment_b": -1.8
+      },
+      {
+        "param_value": 0.2,
+        "latest_revenue_b": 30.0,
+        "adjusted_revenue_b": 27.6,
+        "adjustment_b": -2.4
+      },
+      {
+        "param_value": 0.25,
+        "latest_revenue_b": 30.0,
+        "adjusted_revenue_b": 27.0,
+        "adjustment_b": -3.0
+      },
+      {
+        "param_value": 0.3,
+        "latest_revenue_b": 30.0,
+        "adjusted_revenue_b": 26.4,
+        "adjustment_b": -3.6
+      },
+      {
+        "param_value": 0.35,
+        "latest_revenue_b": 30.0,
+        "adjusted_revenue_b": 25.8,
+        "adjustment_b": -4.2
+      }
+    ],
+    "openai_gross_range": [
+      {
+        "param_value": 0.2,
+        "latest_revenue_b": 24.0,
+        "adjusted_revenue_b": 24.96,
+        "adjustment_b": 0.96
+      },
+      {
+        "param_value": 0.25,
+        "latest_revenue_b": 24.0,
+        "adjusted_revenue_b": 25.2,
+        "adjustment_b": 1.2
+      },
+      {
+        "param_value": 0.3,
+        "latest_revenue_b": 24.0,
+        "adjusted_revenue_b": 25.44,
+        "adjustment_b": 1.44
+      },
+      {
+        "param_value": 0.35,
+        "latest_revenue_b": 24.0,
+        "adjusted_revenue_b": 25.68,
+        "adjustment_b": 1.68
+      },
+      {
+        "param_value": 0.4,
+        "latest_revenue_b": 24.0,
+        "adjusted_revenue_b": 25.92,
+        "adjustment_b": 1.92
+      }
+    ]
+  },
+  "comparability_params": {
+    "description": "Parameters for adjusting revenue between gross and net reporting bases",
+    "anthropic": {
+      "reporting_basis": "gross",
+      "gross_to_net": {
+        "cloud_partner_take_rate": 0.25,
+        "cloud_channel_pct": 0.4,
+        "notes": "Estimated 25% take-rate by AWS/Google on cloud-resold revenue; ~40% of Anthropic revenue flows through cloud channels. Adjusts: net = gross - (gross * cloud_channel_pct * cloud_partner_take_rate)",
+        "sources": [
+          "Sacra: Anthropic reports cloud reseller revenue on gross basis",
+          "OpenAI CRO Dresser (Apr 2026): alleged ~$8B inflation via gross reporting",
+          "Yahoo Finance / Josipa Majic Predin (Mar 2026): confirmed gross reporting"
+        ]
+      }
+    },
+    "openai": {
+      "reporting_basis": "net",
+      "net_to_gross": {
+        "microsoft_share_rate": 0.2,
+        "azure_channel_pct": 0.3,
+        "notes": "OpenAI pays Microsoft ~20% revenue share on Azure-distributed revenue; estimated ~30% of OpenAI revenue flows through Azure. Adjusts: gross = net / (1 - azure_channel_pct * microsoft_share_rate / (1 + azure_channel_pct * microsoft_share_rate)). Simplified: gross ≈ net + (net * azure_channel_pct * microsoft_share_rate)",
+        "sources": [
+          "CNBC/Reuters (Jun 2025): OpenAI figures exclude Microsoft licensing",
+          "Khosla Ventures Ethan Choi (Mar 2026): net reporting confirmed",
+          "SEC filings: Microsoft revenue share terms"
+        ]
+      }
+    },
+    "sensitivity_ranges": {
+      "anthropic_cloud_take_rate": [
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35
+      ],
+      "anthropic_cloud_channel_pct": [
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5
+      ],
+      "openai_microsoft_share_rate": [
+        0.15,
+        0.2,
+        0.25
+      ],
+      "openai_azure_channel_pct": [
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4
+      ]
+    }
+  }
+}

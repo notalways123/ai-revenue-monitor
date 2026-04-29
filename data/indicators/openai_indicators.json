@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2025-06-01",
+    "company": "openai",
+    "metric": "chatgpt_wau",
+    "value": 900,
+    "unit": "millions",
+    "source": "OpenAI",
+    "confidence": "high",
+    "notes": "900M+ weekly active users; ~95% are free/unpaid"
+  },
+  {
+    "date": "2025-06-01",
+    "company": "openai",
+    "metric": "chatgpt_plus_subscribers",
+    "value": 18,
+    "unit": "millions",
+    "source": "Third-party estimates",
+    "confidence": "low",
+    "notes": "~18M ChatGPT Plus subscribers at $20/mo"
+  },
+  {
+    "date": "2025-06-01",
+    "company": "openai",
+    "metric": "chatgpt_team_seats",
+    "value": 2.5,
+    "unit": "millions",
+    "source": "Third-party estimates",
+    "confidence": "low"
+  },
+  {
+    "date": "2025-06-01",
+    "company": "openai",
+    "metric": "chatgpt_enterprise_seats",
+    "value": 1.5,
+    "unit": "millions",
+    "source": "Third-party estimates",
+    "confidence": "low",
+    "notes": "~1.5M seats across 150K+ companies"
+  },
+  {
+    "date": "2026-04-01",
+    "company": "openai",
+    "metric": "enterprise_revenue_pct",
+    "value": 40,
+    "unit": "percent",
+    "source": "CRO Denise Dresser to CNBC",
+    "confidence": "high",
+    "notes": "Enterprise now 40% of total revenue, up from ~20% in 2024; on track for 50/50 parity by end 2026"
+  },
+  {
+    "date": "2025-06-01",
+    "company": "openai",
+    "metric": "chatgpt_pro_revenue_share",
+    "value": 5.8,
+    "unit": "percent",
+    "source": "Industry reports",
+    "confidence": "low",
+    "notes": "ChatGPT Pro ($200/mo) accounts for 5.8% of consumer B2C revenue"
+  },
+  {
+    "date": "2025-06-01",
+    "company": "openai",
+    "metric": "enterprise_llm_api_share",
+    "value": 25,
+    "unit": "percent",
+    "source": "Industry reports",
+    "confidence": "medium",
+    "notes": "Behind Anthropic (32%)"
+  },
+  {
+    "date": "2026-01-01",
+    "company": "openai",
+    "metric": "api_arr_monthly_addition",
+    "value": 1.0,
+    "unit": "billions",
+    "source": "Sam Altman on X (Jan 2026)",
+    "confidence": "high",
+    "notes": "API business added >$1B ARR in a single month"
+  },
+  {
+    "date": "2025-06-01",
+    "company": "openai",
+    "metric": "gross_margin",
+    "value": 33,
+    "unit": "percent",
+    "source": "Sacra",
+    "confidence": "low",
+    "notes": "2025 gross margin ~33%; H1 2025 margin ~42% before Microsoft share"
+  },
+  {
+    "date": "2025-12-31",
+    "company": "openai",
+    "metric": "inference_costs",
+    "value": 8.4,
+    "unit": "billions",
+    "source": "Sacra / internal projections",
+    "confidence": "low",
+    "notes": "2025 inference costs $8.4B projected"
+  }
+]

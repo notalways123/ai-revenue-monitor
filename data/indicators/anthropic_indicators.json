@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2025-09-01",
+    "company": "anthropic",
+    "metric": "business_customers",
+    "value": 300000,
+    "unit": "count",
+    "source": "Anthropic (Sep-Oct 2025)",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-02-01",
+    "company": "anthropic",
+    "metric": "customers_over_1m",
+    "value": 500,
+    "unit": "count",
+    "source": "Anthropic (Series G)",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-04-07",
+    "company": "anthropic",
+    "metric": "customers_over_1m",
+    "value": 1000,
+    "unit": "count",
+    "source": "Anthropic official",
+    "confidence": "high",
+    "notes": "Doubled from 500 in Feb 2026; up from 'a dozen' two years ago"
+  },
+  {
+    "date": "2025-09-01",
+    "company": "anthropic",
+    "metric": "customers_over_100k_yoy_growth",
+    "value": 7,
+    "unit": "multiple",
+    "source": "Anthropic (Sep 2025)",
+    "confidence": "high",
+    "notes": "Customers spending >$100K/year grew 7x year-over-year"
+  },
+  {
+    "date": "2026-02-01",
+    "company": "anthropic",
+    "metric": "claude_ai_mau",
+    "value": 12.48,
+    "unit": "millions",
+    "source": "AICPB",
+    "confidence": "medium",
+    "notes": "App-level MAU; +49% MoM"
+  },
+  {
+    "date": "2026-03-01",
+    "company": "anthropic",
+    "metric": "claude_ai_visits",
+    "value": 722.22,
+    "unit": "millions",
+    "source": "Web analytics",
+    "confidence": "low",
+    "notes": "+151% MoM from 287.93M in Feb"
+  },
+  {
+    "date": "2025-09-01",
+    "company": "anthropic",
+    "metric": "enterprise_llm_api_share",
+    "value": 32,
+    "unit": "percent",
+    "source": "Industry reports",
+    "confidence": "medium",
+    "notes": "Up from ~12% in 2023; ahead of OpenAI (25%) and Google (20%)"
+  },
+  {
+    "date": "2025-09-01",
+    "company": "anthropic",
+    "metric": "coding_assistant_api_share",
+    "value": 42,
+    "unit": "percent",
+    "source": "Industry reports",
+    "confidence": "medium",
+    "notes": "vs OpenAI 31%"
+  },
+  {
+    "date": "2026-04-01",
+    "company": "anthropic",
+    "metric": "claude_code_github_commits_pct",
+    "value": 4,
+    "unit": "percent",
+    "source": "Anthropic",
+    "confidence": "medium",
+    "notes": "4% of all GitHub public commits authored by Claude Code"
+  }
+]

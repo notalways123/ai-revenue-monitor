@@ -1,0 +1,189 @@
+[
+  {
+    "date": "2023-03-01",
+    "company": "anthropic",
+    "revenue_b": 0.022,
+    "metric_type": "arr",
+    "reporting_basis": "gross",
+    "source": "Sacra estimate",
+    "source_url": "",
+    "confidence": "low",
+    "notes": "Sacra independent ARR estimate for Mar 2023",
+    "product_breakdown": null
+  },
+  {
+    "date": "2023-09-01",
+    "company": "anthropic",
+    "revenue_b": 0.1,
+    "metric_type": "run_rate",
+    "reporting_basis": "gross",
+    "source": "The Information / Reuters",
+    "source_url": "",
+    "confidence": "medium",
+    "notes": "Reported $100M annualized rate; leaked from investor briefing",
+    "product_breakdown": null
+  },
+  {
+    "date": "2023-12-01",
+    "company": "anthropic",
+    "revenue_b": 0.2,
+    "metric_type": "arr",
+    "reporting_basis": "gross",
+    "source": "Anthropic investor deck via Sacra",
+    "source_url": "",
+    "confidence": "low",
+    "notes": "Projected $200M ARR by end of 2023",
+    "product_breakdown": null
+  },
+  {
+    "date": "2024-03-01",
+    "company": "anthropic",
+    "revenue_b": 0.316,
+    "metric_type": "arr",
+    "reporting_basis": "gross",
+    "source": "Sacra estimate",
+    "source_url": "",
+    "confidence": "low",
+    "notes": "Sacra independent ARR estimate for Mar 2024",
+    "product_breakdown": null
+  },
+  {
+    "date": "2025-01-01",
+    "company": "anthropic",
+    "revenue_b": 1.0,
+    "metric_type": "run_rate",
+    "reporting_basis": "gross",
+    "source": "Anthropic official (Series E announcement)",
+    "source_url": "",
+    "confidence": "high",
+    "notes": "Series E at $61.5B valuation; ~$1B run-rate at start of 2025",
+    "product_breakdown": null
+  },
+  {
+    "date": "2025-03-01",
+    "company": "anthropic",
+    "revenue_b": 2.0,
+    "metric_type": "run_rate",
+    "reporting_basis": "gross",
+    "source": "Reuters (exclusive, 2 sources)",
+    "source_url": "",
+    "confidence": "medium",
+    "notes": "End of March ~$2B annualized",
+    "product_breakdown": null
+  },
+  {
+    "date": "2025-05-01",
+    "company": "anthropic",
+    "revenue_b": 3.0,
+    "metric_type": "run_rate",
+    "reporting_basis": "gross",
+    "source": "Reuters (exclusive, 2 sources)",
+    "source_url": "",
+    "confidence": "medium",
+    "notes": "$3B annualized by May 2025",
+    "product_breakdown": null
+  },
+  {
+    "date": "2025-08-01",
+    "company": "anthropic",
+    "revenue_b": 5.0,
+    "metric_type": "run_rate",
+    "reporting_basis": "gross",
+    "source": "Anthropic official (Series F announcement)",
+    "source_url": "",
+    "confidence": "high",
+    "notes": "Series F at $183B valuation; >$5B annualized; Claude Code >$500M ARR",
+    "product_breakdown": {
+      "claude_code_b": 0.5,
+      "api_pct": 75,
+      "subscription_pct": 15
+    }
+  },
+  {
+    "date": "2025-10-01",
+    "company": "anthropic",
+    "revenue_b": 7.0,
+    "metric_type": "run_rate",
+    "reporting_basis": "gross",
+    "source": "Reuters (sources)",
+    "source_url": "",
+    "confidence": "medium",
+    "notes": "Approaching $7B annualized; Claude Code ~$1B ARR; internal target $9B by end-2025",
+    "product_breakdown": {
+      "claude_code_b": 1.0,
+      "api_pct": 75,
+      "subscription_pct": 15
+    }
+  },
+  {
+    "date": "2025-11-01",
+    "company": "anthropic",
+    "revenue_b": 3.8,
+    "metric_type": "run_rate",
+    "reporting_basis": "gross",
+    "source": "The Information",
+    "source_url": "",
+    "confidence": "medium",
+    "notes": "API revenue only: $3.8B ARR (vs OpenAI $1.8B from API). Total revenue higher.",
+    "product_breakdown": {
+      "api_pct": null,
+      "subscription_pct": null
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "company": "anthropic",
+    "revenue_b": 9.0,
+    "metric_type": "run_rate",
+    "reporting_basis": "gross",
+    "source": "Anthropic confirmed (April 2026)",
+    "source_url": "",
+    "confidence": "high",
+    "notes": "~$9B end-of-year run-rate, confirmed by company in April 2026",
+    "product_breakdown": null
+  },
+  {
+    "date": "2026-02-01",
+    "company": "anthropic",
+    "revenue_b": 14.0,
+    "metric_type": "run_rate",
+    "reporting_basis": "gross",
+    "source": "Anthropic official (Series G announcement)",
+    "source_url": "",
+    "confidence": "high",
+    "notes": "Series G at $380B valuation; $14B run-rate; Claude Code $2.5B ARR; 500+ customers at $1M+",
+    "product_breakdown": {
+      "claude_code_b": 2.5,
+      "api_pct": 70,
+      "subscription_pct": 15
+    }
+  },
+  {
+    "date": "2026-03-01",
+    "company": "anthropic",
+    "revenue_b": 19.0,
+    "metric_type": "run_rate",
+    "reporting_basis": "gross",
+    "source": "Bloomberg / Reuters (sources)",
+    "source_url": "",
+    "confidence": "medium",
+    "notes": "~$19B annualized; reported by Bloomberg and Reuters citing sources",
+    "product_breakdown": null
+  },
+  {
+    "date": "2026-04-07",
+    "company": "anthropic",
+    "revenue_b": 30.0,
+    "metric_type": "run_rate",
+    "reporting_basis": "gross",
+    "source": "Anthropic official (Google/Broadcom announcement)",
+    "source_url": "",
+    "confidence": "high",
+    "notes": ">$30B run-rate; 1000+ customers at $1M+ (doubled from Feb); Google $10B + Amazon $5B investment",
+    "product_breakdown": {
+      "claude_code_b": null,
+      "api_pct": 70,
+      "subscription_pct": 15
+    }
+  }
+]
