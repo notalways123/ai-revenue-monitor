@@ -46,60 +46,60 @@ SEGMENT_PARAMS = {
         "segments": {
             "api_enterprise": {
                 "tam_b": 120,          # Enterprise AI API market 2026-2027 (~$120B)
-                "tam_growth_rate": 0.35, # TAM itself growing ~35%/yr as AI adoption expands
+                "tam_growth_rate": 0.45, # Enterprise AI TAM growing very fast as AI becomes infra
                 "current_share": 0.32, # 32% enterprise LLM API share
-                "max_share": 0.40,     # realistic max given competition
-                "bass_p": 0.03,        # innovation coefficient
-                "bass_q": 0.30,        # imitation coefficient
+                "max_share": 0.42,     # Claude's edge in coding/agent workflows gives room to grow
+                "bass_p": 0.03,
+                "bass_q": 0.38,        # high imitation — enterprise AI adoption accelerating
             },
             "coding_tools": {
                 "tam_b": 25,           # AI coding tools market 2026-2027 (~$25B)
-                "tam_growth_rate": 0.25, # developer AI tools TAM growing ~25%/yr
+                "tam_growth_rate": 0.35, # coding TAM expanding fast as AI writes more code
                 "current_share": 0.54, # 54% AI programming-tool segment
-                "max_share": 0.60,     # near ceiling — developer TAM finite
+                "max_share": 0.58,     # Claude Code dominant, TAM expansion more important than share
                 "bass_p": 0.02,
-                "bass_q": 0.20,        # lower imitation — early majority already adopted
+                "bass_q": 0.18,        # near ceiling, growth from TAM expansion not share gain
             },
             "consumer_subscription": {
                 "tam_b": 15,           # AI consumer subscription market 2026-2027
-                "tam_growth_rate": 0.20, # consumer AI TAM growing ~20%/yr
-                "current_share": 0.08, # ~12M MAU vs ~100M+ addressable
-                "max_share": 0.20,     # limited by ChatGPT dominance
+                "tam_growth_rate": 0.30,
+                "current_share": 0.08,
+                "max_share": 0.22,     # Claude Max gaining; consumer TAM itself growing
                 "bass_p": 0.01,
-                "bass_q": 0.25,
+                "bass_q": 0.35,
             },
         },
-        "revenue_split": {  # approximate current split
+        "revenue_split": {
             "api_enterprise": 0.70,
-            "coding_tools": 0.18,      # Claude Code $2.5B / $14B total (Feb 2026)
+            "coding_tools": 0.18,
             "consumer_subscription": 0.12,
         },
     },
     "openai": {
         "segments": {
             "consumer_subscription": {
-                "tam_b": 15,           # same consumer AI subscription TAM
-                "tam_growth_rate": 0.20,
-                "current_share": 0.60, # dominant — 18M+ paid subs
-                "max_share": 0.65,     # near ceiling, most willing payers already subscribed
+                "tam_b": 15,
+                "tam_growth_rate": 0.30,
+                "current_share": 0.60,
+                "max_share": 0.65,     # near ceiling but still growing with TAM
                 "bass_p": 0.01,
-                "bass_q": 0.15,        # low imitation — mature segment
+                "bass_q": 0.15,
             },
             "enterprise_api": {
-                "tam_b": 120,          # same enterprise AI API TAM
-                "tam_growth_rate": 0.35,
-                "current_share": 0.25, # 25% enterprise LLM API share
-                "max_share": 0.35,     # could grow but Anthropic competitive
-                "bass_p": 0.03,
-                "bass_q": 0.35,        # high imitation — enterprise adoption accelerating
+                "tam_b": 120,
+                "tam_growth_rate": 0.45, # same fast-growing enterprise AI TAM
+                "current_share": 0.25,
+                "max_share": 0.35,     # OpenAI pivoting to 2B, gaining share with brand recognition
+                "bass_p": 0.04,        # higher innovation coeff — OpenAI pushing hard into enterprise
+                "bass_q": 0.42,        # very high imitation — enterprise adoption accelerating fast
             },
             "microsoft_partnership": {
-                "tam_b": 30,           # Azure AI revenue share to OpenAI
-                "tam_growth_rate": 0.25,
+                "tam_b": 30,
+                "tam_growth_rate": 0.30,
                 "current_share": 0.50,
                 "max_share": 0.55,
                 "bass_p": 0.02,
-                "bass_q": 0.20,
+                "bass_q": 0.28,
             },
         },
         "revenue_split": {
@@ -109,6 +109,24 @@ SEGMENT_PARAMS = {
             "other": 0.10,
         },
     },
+}
+
+# Company-announced ARR targets (for chart overlay)
+ARR_TARGETS = {
+    "anthropic": [
+        {"date": "2026-04-07", "revenue_b": 30.0, "label": "Current"},
+        {"date": "2026-12-31", "revenue_b": 30.0, "label": "2026 target"},  # internal $30B EOY
+        {"date": "2028-12-31", "revenue_b": 70.0, "label": "2028 target"},
+        {"date": "2029-12-31", "revenue_b": 150.0, "label": "2029 target"},
+        {"date": "2030-12-31", "revenue_b": 180.0, "label": "2030 target"},
+    ],
+    "openai": [
+        {"date": "2026-04-01", "revenue_b": 24.0, "label": "Current"},
+        {"date": "2026-12-31", "revenue_b": 29.4, "label": "2026 target"},
+        {"date": "2028-12-31", "revenue_b": 100.0, "label": "2028 target"},
+        {"date": "2029-12-31", "revenue_b": 125.0, "label": "2029 target"},
+        {"date": "2030-12-31", "revenue_b": 213.0, "label": "2030 target"},
+    ],
 }
 
 
@@ -395,6 +413,7 @@ def ensemble_forecast(
             "segment_analysis": tam_result["segment_analysis"],
             "forecast": tam_result["forecast"],
             "confidence_interval_80": tam_result["confidence_interval_80"],
+            "arr_targets": ARR_TARGETS.get(company, []),
             "assumptions": tam_result["assumptions"],
         }
 

@@ -7,6 +7,8 @@ const COLORS = {
   openai: '#10a37f',
   openaiLight: 'rgba(16,163,127,0.15)',
   openaiBand: 'rgba(16,163,127,0.08)',
+  anthroTarget: '#f59e0b',
+  openaiTarget: '#06b6d4',
   danger: '#ef4444',
   text2: '#8892a4',
   border: '#243049',
@@ -142,6 +144,24 @@ function renderOverview() {
           lineStyle: { type: 'dashed' }, symbolSize: 0,
           data: oForecast.forecast.map(f => [f.date, f.predicted_b]),
         }] : []),
+        ...(aForecast && aForecast.arr_targets ? [{
+          name: 'Anthropic target', type: 'line', color: COLORS.anthroTarget,
+          lineStyle: { type: 'dotted', width: 2 }, symbolSize: 8, symbol: 'diamond',
+          data: aForecast.arr_targets.map(t => [t.date, t.revenue_b]),
+          label: {
+            show: true, position: 'top', fontSize: 9, color: COLORS.anthroTarget,
+            formatter: p => p.data.label || '',
+          },
+        }] : []),
+        ...(oForecast && oForecast.arr_targets ? [{
+          name: 'OpenAI target', type: 'line', color: COLORS.openaiTarget,
+          lineStyle: { type: 'dotted', width: 2 }, symbolSize: 8, symbol: 'diamond',
+          data: oForecast.arr_targets.map(t => [t.date, t.revenue_b]),
+          label: {
+            show: true, position: 'top', fontSize: 9, color: COLORS.openaiTarget,
+            formatter: p => p.data.label || '',
+          },
+        }] : []),
       ],
     });
   }
@@ -228,6 +248,16 @@ function renderOverview() {
         { name: 'OpenAI', type: 'line', color: COLORS.openai, symbolSize: 6, data: histO },
         { name: 'Anthropic (est)', type: 'line', color: COLORS.anthro, lineStyle: { type: 'dashed' }, symbolSize: 0, data: foreA },
         { name: 'OpenAI (est)', type: 'line', color: COLORS.openai, lineStyle: { type: 'dashed' }, symbolSize: 0, data: foreO },
+        ...(aForecast && aForecast.arr_targets ? [{
+          name: 'Anthropic target', type: 'line', color: COLORS.anthroTarget,
+          lineStyle: { type: 'dotted', width: 2 }, symbolSize: 7, symbol: 'diamond',
+          data: aForecast.arr_targets.map(t => [t.date, t.revenue_b]),
+        }] : []),
+        ...(oForecast && oForecast.arr_targets ? [{
+          name: 'OpenAI target', type: 'line', color: COLORS.openaiTarget,
+          lineStyle: { type: 'dotted', width: 2 }, symbolSize: 7, symbol: 'diamond',
+          data: oForecast.arr_targets.map(t => [t.date, t.revenue_b]),
+        }] : []),
       ],
     });
   }
@@ -282,6 +312,16 @@ function renderCompanyDetail(company) {
         ...(fc && fc.confidence_interval_80 ? [{
           type: 'line', color, areaStyle: { opacity: 0.08 }, symbolSize: 0, lineStyle: { opacity: 0 },
           data: fc.confidence_interval_80.upper.map((u, i) => [fc.forecast[i].date, u]),
+        }] : []),
+        ...(fc && fc.arr_targets ? [{
+          type: 'line', color: isAnthro ? COLORS.anthroTarget : COLORS.openaiTarget,
+          lineStyle: { type: 'dotted', width: 2 }, symbolSize: 8, symbol: 'diamond',
+          data: fc.arr_targets.map(t => [t.date, t.revenue_b]),
+          label: {
+            show: true, position: 'top', fontSize: 9,
+            color: isAnthro ? COLORS.anthroTarget : COLORS.openaiTarget,
+            formatter: p => (p.data && p.data.label) ? p.data.label : '',
+          },
         }] : []),
       ],
     });

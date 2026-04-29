@@ -29,9 +29,9 @@ def main():
     o_yoy = calc_yoy(openai)
     a_infl = find_inflections(anthro)
     o_infl = find_inflections(openai)
-    a_fc = ensemble_forecast(anthro, 6, company="anthropic")
-    o_fc = ensemble_forecast(openai, 6, company="openai")
-    co = crossover_analysis(anthro, openai, "net", 12)
+    a_fc = ensemble_forecast(anthro, 57, company="anthropic")
+    o_fc = ensemble_forecast(openai, 48, company="openai")
+    co = crossover_analysis(anthro, openai, "net", 57)
 
     report = f"""# AI Revenue Monitor — Weekly Report
 
@@ -98,9 +98,9 @@ def main():
 
     # Forecast
     report += """
-## 6-Month Forecast (Economics-Grounded)
+## 4-Year Forecast to 2030 (Economics-Grounded)
 
-Method: TAM-driven Bass diffusion per revenue segment, blended with S-curve fit.
+Method: TAM-driven Bass diffusion per revenue segment. No pure-math blending.
 
 ### Anthropic
 | Date | Predicted | Method |

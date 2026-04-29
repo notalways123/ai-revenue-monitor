@@ -33,7 +33,7 @@ def main():
             "absolute_increment": calc_absolute_increment(anthro),
             "implied_monthly": calc_implied_monthly(anthro),
             "inflections": find_inflections(anthro),
-            "forecast_ensemble": ensemble_forecast(anthro, 12, company="anthropic"),
+            "forecast_ensemble": ensemble_forecast(anthro, 57, company="anthropic"),
             "latest": {
                 "date": anthro[-1]["date"],
                 "revenue_b": anthro[-1]["revenue_b"],
@@ -48,7 +48,7 @@ def main():
             "absolute_increment": calc_absolute_increment(openai),
             "implied_monthly": calc_implied_monthly(openai),
             "inflections": find_inflections(openai),
-            "forecast_ensemble": ensemble_forecast(openai, 12, company="openai"),
+            "forecast_ensemble": ensemble_forecast(openai, 57, company="openai"),
             "latest": {
                 "date": openai[-1]["date"],
                 "revenue_b": openai[-1]["revenue_b"],
@@ -57,8 +57,8 @@ def main():
             },
         },
         "comparison": {
-            "crossover_net": crossover_analysis(anthro, openai, "net", 12),
-            "crossover_gross": crossover_analysis(anthro, openai, "gross", 12),
+            "crossover_net": crossover_analysis(anthro, openai, "net", 57),
+            "crossover_gross": crossover_analysis(anthro, openai, "gross", 57),
             "inflection_comparison": compare_inflections(anthro, openai, "anthropic", "openai"),
         },
         "sensitivity": {
